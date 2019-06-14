@@ -1,0 +1,97 @@
+ARM GAS  /tmp/ccSVPhdB.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m4
+   3              		.eabi_attribute 27, 1
+   4              		.eabi_attribute 28, 1
+   5              		.fpu fpv4-sp-d16
+   6              		.eabi_attribute 20, 1
+   7              		.eabi_attribute 21, 1
+   8              		.eabi_attribute 23, 3
+   9              		.eabi_attribute 24, 1
+  10              		.eabi_attribute 25, 1
+  11              		.eabi_attribute 26, 1
+  12              		.eabi_attribute 30, 6
+  13              		.eabi_attribute 34, 1
+  14              		.eabi_attribute 18, 4
+  15              		.thumb
+  16              		.file	"signature.c"
+  17              		.text
+  18              	.Ltext0:
+  19              		.section	.gnu.lto_.inline.b24695619e172009,"",%progbits
+  20 0000 789C6366 		.ascii	"x\234cf\300\016\230\340,\000\000\234\000\006"
+  20      C00E98E0 
+  20      2C00009C 
+  20      0006
+  21              		.text
+  22              		.section	.gnu.lto_.symbol_nodes.b24695619e172009,"",%progbits
+  23 0000 789C6366 		.ascii	"x\234cf```b\200\001\000\000L\000\006"
+  23      60606062 
+  23      80010000 
+  23      4C0006
+  24              		.text
+  25              		.section	.gnu.lto_.refs.b24695619e172009,"",%progbits
+  26 0000 789C6366 		.ascii	"x\234cf```d\200\002\000\000=\000\005"
+  26      60606064 
+  26      80020000 
+  26      3D0005
+  27              		.text
+  28              		.section	.gnu.lto_.decls.b24695619e172009,"",%progbits
+  29 0000 789C6366 		.ascii	"x\234cf``P\001\342\377@\000\244\030\030\2418\200\201"
+  29      60605001 
+  29      E2FF4000 
+  29      A41818A1 
+  29      388081
+  30 0013 000000D0 		.ascii	"\000\000\000\3208\004v"
+  30      380476
+  31              		.text
+  32              		.section	.gnu.lto_.symtab.b24695619e172009,"",%progbits
+  33              		.text
+  34              		.section	.gnu.lto_.opts,"",%progbits
+  35 0000 272D666E 		.ascii	"'-fno-trapv' '-fno-strict-overflow' '-mcpu=cortex-m"
+  35      6F2D7472 
+  35      61707627 
+  35      20272D66 
+  35      6E6F2D73 
+  36 0033 34272027 		.ascii	"4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mno-thu"
+  36      2D6D666C 
+  36      6F61742D 
+  36      6162693D 
+ARM GAS  /tmp/ccSVPhdB.s 			page 2
+
+
+  36      68617264 
+  37 0066 6D622D69 		.ascii	"mb-interwork' '-mthumb' '-ggdb' '-O0' '-fomit-frame"
+  37      6E746572 
+  37      776F726B 
+  37      2720272D 
+  37      6D746875 
+  38 0099 2D706F69 		.ascii	"-pointer' '-falign-functions=16' '-ffunction-sectio"
+  38      6E746572 
+  38      2720272D 
+  38      66616C69 
+  38      676E2D66 
+  39 00cc 6E732720 		.ascii	"ns' '-fdata-sections' '-fno-common' '-flto' '-fsing"
+  39      272D6664 
+  39      6174612D 
+  39      73656374 
+  39      696F6E73 
+  40 00ff 6C652D70 		.ascii	"le-precision-constant'\000"
+  40      72656369 
+  40      73696F6E 
+  40      2D636F6E 
+  40      7374616E 
+  41              		.text
+  42              		.comm	__gnu_lto_v1,1,1
+  43              		.comm	__gnu_lto_slim,1,1
+  44              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
+ARM GAS  /tmp/ccSVPhdB.s 			page 3
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 signature.c
+                            *COM*:00000001 __gnu_lto_v1
+                            *COM*:00000001 __gnu_lto_slim
+
+NO UNDEFINED SYMBOLS
