@@ -1,17 +1,18 @@
-build/obj/main.o: main.cpp chibios_stable-18.2.x/os/rt/include/ch.h \
+build/obj/main.o: main.c chibios_stable-18.2.x/os/rt/include/ch.h \
  chconf.h chibios_stable-18.2.x/os/rt/include/chchecks.h \
  chibios_stable-18.2.x/os/license/chlicense.h \
  chibios_stable-18.2.x/os/license/chcustomer.h \
  chibios_stable-18.2.x/os/rt/include/chrestrictions.h \
  chibios_stable-18.2.x/os/common/ports/ARMCMx/compilers/GCC/chtypes.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/stdint.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/_default_types.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/features.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_intsup.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_stdint.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/stdint.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_default_types.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/features.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_newlib_version.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_intsup.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_stdint.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdbool.h \
  chibios_stable-18.2.x/os/rt/include/chsystypes.h \
  chibios_stable-18.2.x/os/rt/include/chdebug.h \
  chibios_stable-18.2.x/os/rt/include/chtime.h \
@@ -103,7 +104,8 @@ build/obj/main.o: main.cpp chibios_stable-18.2.x/os/rt/include/ch.h \
  chibios_stable-18.2.x/os/hal/include/hal_st.h \
  chibios_stable-18.2.x/os/hal/include/hal_mmc_spi.h \
  chibios_stable-18.2.x/os/hal/include/hal_serial_usb.h \
- chibios_stable-18.2.x/os/hal/include/hal_usb_cdc.h usbcfg.h util.h
+ chibios_stable-18.2.x/os/hal/include/hal_usb_cdc.h usbcfg.h util.h def.h \
+ crypto.h
 
 chibios_stable-18.2.x/os/rt/include/ch.h:
 
@@ -119,21 +121,23 @@ chibios_stable-18.2.x/os/rt/include/chrestrictions.h:
 
 chibios_stable-18.2.x/os/common/ports/ARMCMx/compilers/GCC/chtypes.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/stdint.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/stdint.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/_default_types.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_default_types.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/features.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/features.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_intsup.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_newlib_version.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_stdint.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_intsup.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_stdint.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdbool.h:
 
 chibios_stable-18.2.x/os/rt/include/chsystypes.h:
 
@@ -326,3 +330,7 @@ chibios_stable-18.2.x/os/hal/include/hal_usb_cdc.h:
 usbcfg.h:
 
 util.h:
+
+def.h:
+
+crypto.h:

@@ -89,7 +89,7 @@ endif
 
 # Define project name here
 PROJECT = ch
-
+BLD = bld
 # Imported source files and paths
 CHIBIOS = ../../..
 
@@ -217,3 +217,10 @@ ULIBS =
 
 RULESPATH = $(CHIBIOS)/os/common/startup/ARMCMx/compilers/GCC
 include $(RULESPATH)/rules.mk
+
+build/$(PROJECT).px4: build/$(PROJECT).bin build/$(PROJECT).elf POST_MAKE_ALL_RULE_HOOK
+	@python $(BLD)/px_mkfw.py --prototype $(BLD)/andromeda_v1.prototype \
+			--git_identity . --image build/$(PROJECT).bin > build/$(PROJECT).px4
+
+upload: build/$(PROJECT).px4
+	@bash $(BLD)/upload.sh build/$(PROJECT).px4

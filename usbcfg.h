@@ -21,6 +21,13 @@ extern const USBConfig usbcfg;
 extern SerialUSBConfig serusbcfg;
 extern SerialUSBDriver SDU1;
 
+/*
+ * Endpoints to be used for USBD1.
+ */
+#define USBD1_DATA_REQUEST_EP           1
+#define USBD1_DATA_AVAILABLE_EP         1
+#define USBD1_INTERRUPT_REQUEST_EP      2
+
 void start_usb_serial(void);
 
 #endif  /* USBCFG_H */

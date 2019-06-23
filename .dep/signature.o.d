@@ -3,37 +3,45 @@ build/obj/signature.o: \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/settings.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/visibility.h \
  cfg/user_settings.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/stdint.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/_default_types.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/features.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_intsup.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_stdint.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/stdint.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_default_types.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/features.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_newlib_version.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_intsup.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_stdint.h \
  wolfssl_chibios.h chibios_stable-18.2.x/ext/wolfssl/wolfssl/ssl.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/version.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfio.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/types.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/wc_port.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/time.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/_ansi.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/newlib.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/config.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/ieeefp.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/reent.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/_ansi.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_types.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/_types.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/lock.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/time.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/types.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/cdefs.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/types.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/timespec.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_timespec.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/string.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/string.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/ctype.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/time.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_ansi.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/newlib.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/config.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/ieeefp.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/cdefs.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/reent.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_ansi.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_types.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_types.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/lock.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/time.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/types.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/endian.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_endian.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/select.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_sigset.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_timeval.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/timespec.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_timespec.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_pthreadtypes.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/types.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/xlocale.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/string.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/string.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/ctype.h \
  chibios_stable-18.2.x/ext/lwip/src/include/lwip/opt.h cfg/lwipopts.h \
  chibios_stable-18.2.x/os/various/lwip_bindings/static_lwipopts.h \
  chibios_stable-18.2.x/ext/lwip/src/include/lwip/debug.h \
@@ -41,7 +49,7 @@ build/obj/signature.o: \
  chibios_stable-18.2.x/os/various/lwip_bindings/arch/cc.h \
  chibios_stable-18.2.x/os/hal/include/hal.h \
  chibios_stable-18.2.x/os/hal/osal/rt/osal.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdbool.h \
  chibios_stable-18.2.x/os/rt/include/ch.h chconf.h \
  chibios_stable-18.2.x/os/rt/include/chchecks.h \
  chibios_stable-18.2.x/os/license/chlicense.h \
@@ -138,12 +146,12 @@ build/obj/signature.o: \
  chibios_stable-18.2.x/os/hal/include/hal_mmc_spi.h \
  chibios_stable-18.2.x/os/hal/include/hal_serial_usb.h \
  chibios_stable-18.2.x/os/hal/include/hal_usb_cdc.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/time.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_timeval.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/inttypes.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include-fixed/limits.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include-fixed/syslimits.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/limits.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/time.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_time.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/inttypes.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include-fixed/limits.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include-fixed/syslimits.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/limits.h \
  chibios_stable-18.2.x/ext/lwip/src/include/lwip/api.h \
  chibios_stable-18.2.x/ext/lwip/src/include/lwip/netbuf.h \
  chibios_stable-18.2.x/ext/lwip/src/include/lwip/pbuf.h \
@@ -170,7 +178,7 @@ build/obj/signature.o: \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/mpi_superclass.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/mpi_class.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/wolfmath.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/dh.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/dsa.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/asn_public.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/ecc.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/rsa.h
@@ -181,17 +189,19 @@ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/visibility.h:
 
 cfg/user_settings.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/stdint.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/stdint.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/_default_types.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_default_types.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/features.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/features.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_intsup.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_newlib_version.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_stdint.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_intsup.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_stdint.h:
 
 wolfssl_chibios.h:
 
@@ -205,45 +215,59 @@ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/types.h:
 
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/wc_port.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/time.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/time.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/_ansi.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_ansi.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/newlib.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/newlib.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/config.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/config.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/ieeefp.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/ieeefp.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/reent.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/cdefs.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/_ansi.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/reent.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_types.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_ansi.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/_types.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_types.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/lock.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_types.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/time.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/lock.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/types.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/time.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/cdefs.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/types.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/types.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/endian.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/timespec.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_endian.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_timespec.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/select.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/string.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_sigset.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/string.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_timeval.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/ctype.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/timespec.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_timespec.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_pthreadtypes.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/types.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/xlocale.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/string.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/string.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/ctype.h:
 
 chibios_stable-18.2.x/ext/lwip/src/include/lwip/opt.h:
 
@@ -261,7 +285,7 @@ chibios_stable-18.2.x/os/hal/include/hal.h:
 
 chibios_stable-18.2.x/os/hal/osal/rt/osal.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdbool.h:
 
 chibios_stable-18.2.x/os/rt/include/ch.h:
 
@@ -461,17 +485,17 @@ chibios_stable-18.2.x/os/hal/include/hal_serial_usb.h:
 
 chibios_stable-18.2.x/os/hal/include/hal_usb_cdc.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/time.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/time.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_timeval.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_time.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/inttypes.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/inttypes.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include-fixed/limits.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include-fixed/limits.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include-fixed/syslimits.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include-fixed/syslimits.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/limits.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/limits.h:
 
 chibios_stable-18.2.x/ext/lwip/src/include/lwip/api.h:
 
@@ -525,7 +549,7 @@ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/mpi_class.h:
 
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/wolfmath.h:
 
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/dh.h:
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/dsa.h:
 
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/asn_public.h:
 

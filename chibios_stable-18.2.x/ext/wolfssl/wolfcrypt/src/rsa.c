@@ -1935,7 +1935,6 @@ int wc_MakeRsaKey(RsaKey* key, int size, long e, WC_RNG* rng)
         return err;
 
     err = mp_set_int(&tmp3, e);
-
     /* make p */
     if (err == MP_OKAY) {
         do {
@@ -2014,10 +2013,13 @@ int wc_MakeRsaKey(RsaKey* key, int size, long e, WC_RNG* rng)
     mp_clear(&q);
     mp_clear(&p);
 
+
     if (err != MP_OKAY) {
         wc_FreeRsaKey(key);
         return err;
     }
+
+
 
 #ifdef WOLFSSL_XILINX_CRYPT
     if (wc_InitRsaHw(key) != 0) {
