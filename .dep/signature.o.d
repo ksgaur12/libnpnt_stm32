@@ -168,7 +168,6 @@ build/obj/signature.o: \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/md5.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha256.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha512.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/random.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/error-crypt.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/logging.h \
@@ -528,8 +527,6 @@ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/md5.h:
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha.h:
 
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha256.h:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha512.h:
 
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/random.h:
 

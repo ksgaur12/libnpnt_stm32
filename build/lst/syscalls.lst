@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccFravyL.s 			page 1
+ARM GAS  /tmp/ccgudXBx.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -15,7 +15,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
   12              		.file	"syscalls.c"
   13              		.text
   14              	.Ltext0:
-  15              		.section	.gnu.lto_.inline.a6cf0ab344e1911,"",%progbits
+  15              		.section	.gnu.lto_.inline.bb05d06a3b4f20a,"",%progbits
   16 0000 789C6365 		.ascii	"x\234ce`bX\315\200\000\034@$\300\300\300\304\264@\236"
   16      606258CD 
   16      80001C40 
@@ -40,7 +40,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
   20      0C531800 
   20      F36B0B3F 
   21              		.text
-  22              		.section	.gnu.lto_chCoreAlloc.a6cf0ab344e1911,"",%progbits
+  22              		.section	.gnu.lto_chCoreAlloc.bb05d06a3b4f20a,"",%progbits
   23 0000 789C6550 		.ascii	"x\234ePM+Da\024>\317=w\306W3\033V\232\205\005\311\302"
   23      4D2B4461 
   23      143ECF3D 
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
   26 003b 2C58C8D7 		.ascii	",X\310\327\302\322\302\307y\261P\026\347\3559\3179\347"
   26      C2D2C2C7 
   26      79B15016 
-ARM GAS  /tmp/ccFravyL.s 			page 2
+ARM GAS  /tmp/ccgudXBx.s 			page 2
 
 
   26      E7ED39CF 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
   37      48BDAB42 
   37      8FCD69D6 
   37      E69B
-ARM GAS  /tmp/ccFravyL.s 			page 3
+ARM GAS  /tmp/ccgudXBx.s 			page 3
 
 
   38 011d 48D11C1B 		.ascii	"H\321\034\033\177O\344\203\211,BBe\237so\201\037\212"
@@ -150,7 +150,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
   43      02784D84 
   43      0A
   44              		.text
-  45              		.section	.gnu.lto__read_r.a6cf0ab344e1911,"",%progbits
+  45              		.section	.gnu.lto__read_r.bb05d06a3b4f20a,"",%progbits
   46 0000 789C6D92 		.ascii	"x\234m\222\317k\023Q\020\307\337\367\315&\3226\355I"
   46      CF6B1351 
   46      10C7DFF7 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
   51      8414BBA5 
   51      103B8510 
   51      617E8525 
-ARM GAS  /tmp/ccFravyL.s 			page 4
+ARM GAS  /tmp/ccgudXBx.s 			page 4
 
 
   51      C02E
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
   62      9D52FEB7 
   62      F2C6
   63 013c E15CFEBE 		.ascii	"\341\\\376\276\262\376\335\030'_E\347\314\023\370\252"
-ARM GAS  /tmp/ccFravyL.s 			page 5
+ARM GAS  /tmp/ccgudXBx.s 			page 5
 
 
   63      B2FEDD18 
@@ -294,11 +294,11 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
   74      0F2270C6 
   74      80
   75              		.text
-  76              		.section	.gnu.lto__lseek_r.a6cf0ab344e1911,"",%progbits
+  76              		.section	.gnu.lto__lseek_r.bb05d06a3b4f20a,"",%progbits
   77 0000 789C6D91 		.ascii	"x\234m\221\317K[A\020\307\347\373\3465\0275'o\315\301"
   77      CF4B5B41 
   77      10C7E7FB 
-ARM GAS  /tmp/ccFravyL.s 			page 6
+ARM GAS  /tmp/ccgudXBx.s 			page 6
 
 
   77      E6351735 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
   88      34F0
   89 00df FE366910 		.ascii	"\3766i\020f]\262w7}\300\\\347\242g\037\276\304<\362"
   89      665DB277 
-ARM GAS  /tmp/ccFravyL.s 			page 7
+ARM GAS  /tmp/ccgudXBx.s 			page 7
 
 
   89      377DC05C 
@@ -418,10 +418,10 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  100      AF010531 
  100      A2B0
  101              		.text
-ARM GAS  /tmp/ccFravyL.s 			page 8
+ARM GAS  /tmp/ccgudXBx.s 			page 8
 
 
- 102              		.section	.gnu.lto__write_r.a6cf0ab344e1911,"",%progbits
+ 102              		.section	.gnu.lto__write_r.bb05d06a3b4f20a,"",%progbits
  103 0000 789C6D91 		.ascii	"x\234m\221\317kSA\020\307\347\373\346\031\251\211z\361"
  103      CF6B5341 
  103      10C7E7FB 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  114 00c5 FC2F2857 		.ascii	"\374/(W\2045\204E\276\364r&\306\243\206,\365:-\277&"
  114      84358445 
  114      BEF47226 
-ARM GAS  /tmp/ccFravyL.s 			page 9
+ARM GAS  /tmp/ccgudXBx.s 			page 9
 
 
  114      C6A3862C 
@@ -538,13 +538,13 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  126      C7712349 
  126      42D6BE98 
  126      76527C25 
-ARM GAS  /tmp/ccFravyL.s 			page 10
+ARM GAS  /tmp/ccgudXBx.s 			page 10
 
 
  127 01b0 F92F87EC 		.ascii	"\371/\207\354\243\217"
  127      A38F
  128              		.text
- 129              		.section	.gnu.lto__close_r.a6cf0ab344e1911,"",%progbits
+ 129              		.section	.gnu.lto__close_r.bb05d06a3b4f20a,"",%progbits
  130 0000 789C6550 		.ascii	"x\234eP]+\203a\030\276\257\367~\315\201q\344p\305\201"
  130      5D2B8361 
  130      18BEAFF7 
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  140      5566BA52 
  140      BEAED34C 
  141 00cb BC5DA832 		.ascii	"\274]\2502\015\354\376e\032\204=x4\376\346\240\222\256"
-ARM GAS  /tmp/ccFravyL.s 			page 11
+ARM GAS  /tmp/ccgudXBx.s 			page 11
 
 
  141      0DECFE65 
@@ -642,7 +642,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  149      23D1BE6F 
  149      D3B97B22 
  150              		.text
- 151              		.section	.gnu.lto__sbrk_r.a6cf0ab344e1911,"",%progbits
+ 151              		.section	.gnu.lto__sbrk_r.bb05d06a3b4f20a,"",%progbits
  152 0000 789C6553 		.ascii	"x\234eS[KTQ\024\336\337Y\347\234\031\307I!H\202|\360"
  152      5B4B5451 
  152      14DEDF59 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  154      EA740C11 
  154      67C6CC
  155 0038 4BA61905 		.ascii	"K\246\031\005C\251\205tQ\243(\253\207\262H1\037\012"
-ARM GAS  /tmp/ccFravyL.s 			page 12
+ARM GAS  /tmp/ccgudXBx.s 			page 12
 
 
  155      43A98574 
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  166      75E9
  167 0107 31DDD36D 		.ascii	"1\335\323m\177\365Eb{S\215|(u\213\014\\\377\227\257"
  167      7FF54562 
-ARM GAS  /tmp/ccFravyL.s 			page 13
+ARM GAS  /tmp/ccgudXBx.s 			page 13
 
 
  167      7B538D7C 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  178      A16E0CD9 
  178      4E7D7F30 
  178      5DE7B6
-ARM GAS  /tmp/ccFravyL.s 			page 14
+ARM GAS  /tmp/ccgudXBx.s 			page 14
 
 
  179 01ed 103BCBFD 		.ascii	"\020;\313\375\353\312\263(+FN\334T\265r\360\355\335"
@@ -830,7 +830,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  188      0069F802 
  188      07
  189              		.text
- 190              		.section	.gnu.lto__fstat_r.a6cf0ab344e1911,"",%progbits
+ 190              		.section	.gnu.lto__fstat_r.bb05d06a3b4f20a,"",%progbits
  191 0000 789C6552 		.ascii	"x\234eRMk\023Q\024}g\356$\323\332\324\225t\225E\026"
  191      4D6B1351 
  191      147D67EE 
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  191      95749545 
  192 0015 96503F32 		.ascii	"\226P?2\324\205d\341\017\360\037\270\2244T\014\004\002"
  192      D48564E1 
-ARM GAS  /tmp/ccFravyL.s 			page 15
+ARM GAS  /tmp/ccgudXBx.s 			page 15
 
 
  192      0FF01FB8 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  203      FF50
  204 00f6 BC6C6E89 		.ascii	"\274ln\211>,h\252\211\312v*/\244\212\260\302\177\234"
  204      3E2C68AA 
-ARM GAS  /tmp/ccFravyL.s 			page 16
+ARM GAS  /tmp/ccgudXBx.s 			page 16
 
 
  204      89CA762A 
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  215      2B928FC7 
  215      D2569845 
  215      9FF9371A 
-ARM GAS  /tmp/ccFravyL.s 			page 17
+ARM GAS  /tmp/ccgudXBx.s 			page 17
 
 
  215      E7
@@ -981,7 +981,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  219      E1F4FE05 
  220 0214 5D82C8B7 		.ascii	"]\202\310\267"
  221              		.text
- 222              		.section	.gnu.lto__isatty_r.a6cf0ab344e1911,"",%progbits
+ 222              		.section	.gnu.lto__isatty_r.bb05d06a3b4f20a,"",%progbits
  223 0000 789C6550 		.ascii	"x\234ePKK\202Q\020\235\363\215\011\241\265\012\332\270"
  223      4B4B8251 
  223      109DF38D 
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  229      D6
  230 0080 E9CB2839 		.ascii	"\351\313(9\326z\321\261\232\230\354J\261A\233\202\336"
  230      D67AD1B1 
-ARM GAS  /tmp/ccFravyL.s 			page 18
+ARM GAS  /tmp/ccgudXBx.s 			page 18
 
 
  230      9A98EC4A 
@@ -1078,13 +1078,13 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  241      0C052311 
  241      D3
  242 015c 1F22C48C 		.ascii	"\037\"\304\214\376\336o\310\254zS"
-ARM GAS  /tmp/ccFravyL.s 			page 19
+ARM GAS  /tmp/ccgudXBx.s 			page 19
 
 
  242      FEDE6FC8 
  242      AC7A53
  243              		.text
- 244              		.section	.gnu.lto_.symbol_nodes.a6cf0ab344e1911,"",%progbits
+ 244              		.section	.gnu.lto_.symbol_nodes.bb05d06a3b4f20a,"",%progbits
  245 0000 789C55C8 		.ascii	"x\234U\310M\016\202@\024\003\340N\207\031\340Vr\262"
  245      4D0E8240 
  245      1403E04E 
@@ -1117,13 +1117,13 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  251 006c 07E19736 		.ascii	"\007\341\2276,"
  251      2C
  252              		.text
- 253              		.section	.gnu.lto_.refs.a6cf0ab344e1911,"",%progbits
+ 253              		.section	.gnu.lto_.refs.bb05d06a3b4f20a,"",%progbits
  254 0000 789C6365 		.ascii	"x\234ce`b`d\000\002\000\000I\000\011"
  254      60626064 
  254      00020000 
  254      490009
  255              		.text
- 256              		.section	.gnu.lto_.decls.a6cf0ab344e1911,"",%progbits
+ 256              		.section	.gnu.lto_.decls.bb05d06a3b4f20a,"",%progbits
  257 0000 789CBD7C 		.ascii	"x\234\275|iTTi\226`|\357{\021\001\301\242\215v\225="
  257      69545469 
  257      96607CEF 
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  259      B27E7476 
  259      D599999E 
  259      3780A04C 
-ARM GAS  /tmp/ccFravyL.s 			page 20
+ARM GAS  /tmp/ccgudXBx.s 			page 20
 
 
  259      B2D880
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  271      6322F3BB 
  271      DC
  272 010d 2F4860FD 		.ascii	"/H`\375~\315}H|'@\237k*\373\011k2.\327\271Ou@\243W\361"
-ARM GAS  /tmp/ccFravyL.s 			page 21
+ARM GAS  /tmp/ccgudXBx.s 			page 21
 
 
  272      7ECD7D48 
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  283      B2249D50 
  283      BB199008 
  283      E8C29D
-ARM GAS  /tmp/ccFravyL.s 			page 22
+ARM GAS  /tmp/ccgudXBx.s 			page 22
 
 
  284 01e9 D4315740 		.ascii	"\3241W@w\032\320;IX\350\256}6\342\200\366\030.\022!"
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  295      DEFF2528 
  295      8E2A
  296 02bc 686E4243 		.ascii	"hnBCQ\301z\211\201\232\362k\331\222\373\253\265k\316"
-ARM GAS  /tmp/ccFravyL.s 			page 23
+ARM GAS  /tmp/ccgudXBx.s 			page 23
 
 
  296      51C17A89 
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  307      975FEEC2 
  307      2593
  308 0398 DB4B13C7 		.ascii	"\333K\023\307c\265\270\217I~\321=\224\202\3610C\032"
-ARM GAS  /tmp/ccFravyL.s 			page 24
+ARM GAS  /tmp/ccgudXBx.s 			page 24
 
 
  308      63B5B88F 
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  319      9F1069B8 
  319      7DAC6889 
  319      B18FE6AA 
-ARM GAS  /tmp/ccFravyL.s 			page 25
+ARM GAS  /tmp/ccgudXBx.s 			page 25
 
 
  320 046f 1D41E91D 		.ascii	"\035A\351\035{\230\022s\005\256)FS$&\001y\007tx\214"
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  331 0541 A1377C6D 		.ascii	"\2417|m\301\034M\201\315\326\374\027\347/\010x\200\361"
  331      C11C4D81 
  331      CDD6FC17 
-ARM GAS  /tmp/ccFravyL.s 			page 26
+ARM GAS  /tmp/ccgudXBx.s 			page 26
 
 
  331      E72F0878 
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  342      312222F7 
  342      1DEE3C
  343 0621 5BFB8EBD 		.ascii	"[\373\216\275\367\274q\202\226\030\310W\250\262h\363"
-ARM GAS  /tmp/ccFravyL.s 			page 27
+ARM GAS  /tmp/ccgudXBx.s 			page 27
 
 
  343      F7BC7182 
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  354      DA055653 
  354      6CED72B1 
  354      A527C201 
-ARM GAS  /tmp/ccFravyL.s 			page 28
+ARM GAS  /tmp/ccgudXBx.s 			page 28
 
 
  354      9F51DF
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  366 07d0 489E5D11 		.ascii	"H\236]\021q\017CR\303\332^;\340\373\014i\255\235\356"
  366      710F4352 
  366      C3DA5E3B 
-ARM GAS  /tmp/ccFravyL.s 			page 29
+ARM GAS  /tmp/ccgudXBx.s 			page 29
 
 
  366      E0FB0C69 
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  377      BB7AE61E 
  378 08b0 E31F9021 		.ascii	"\343\037\220!m/h\327\341\014fN\301\235[\003|\356\210"
  378      6D2F68D7 
-ARM GAS  /tmp/ccFravyL.s 			page 30
+ARM GAS  /tmp/ccgudXBx.s 			page 30
 
 
  378      E10C664E 
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  389      F5F801
  390 0984 95AA7BD6 		.ascii	"\225\252{\326\266\370F\207v\270\273\273\357qW\316\211"
  390      B6F84687 
-ARM GAS  /tmp/ccFravyL.s 			page 31
+ARM GAS  /tmp/ccgudXBx.s 			page 31
 
 
  390      76B8BBBB 
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  401      C916
  402 0a5b 37E3A040 		.ascii	"7\343\240@\271]r\352\025\205MJ\012\015\351g\361qG:\037"
  402      B95D72EA 
-ARM GAS  /tmp/ccFravyL.s 			page 32
+ARM GAS  /tmp/ccgudXBx.s 			page 32
 
 
  402      15854D4A 
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  413      0BAB9E62 
  413      C59994
  414 0b34 0C031405 		.ascii	"\014\003\024\005\353\222\360\024\310\247)\371K\356\314"
-ARM GAS  /tmp/ccFravyL.s 			page 33
+ARM GAS  /tmp/ccgudXBx.s 			page 33
 
 
  414      EB92F014 
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  426 0c09 79D6A41E 		.ascii	"y\326\244\036\257s\031I\207c\270\214\037\003\332\222"
  426      AF731949 
  426      8763B88C 
-ARM GAS  /tmp/ccFravyL.s 			page 34
+ARM GAS  /tmp/ccgudXBx.s 			page 34
 
 
  426      1F03DA92 
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  437      1745
  438 0ce2 B4AF7AB3 		.ascii	"\264\257z\263\2720\231\202\025\351&h`hw\243D\340\204"
  438      BA309982 
-ARM GAS  /tmp/ccFravyL.s 			page 35
+ARM GAS  /tmp/ccgudXBx.s 			page 35
 
 
  438      15E92668 
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  449      227E4011 
  449      A7B8C5C2 
  449      F3
-ARM GAS  /tmp/ccFravyL.s 			page 36
+ARM GAS  /tmp/ccgudXBx.s 			page 36
 
 
  450 0dc7 E48C90FE 		.ascii	"\344\214\220\376\355\330\343\356\316'\274d7\266B\201"
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  461      6D1C1DD2 
  461      AA2B651D 
  462 0e98 EE06AD38 		.ascii	"\356\006\2558\215\264\3424\310\225\262<\276~^\3003L"
-ARM GAS  /tmp/ccFravyL.s 			page 37
+ARM GAS  /tmp/ccgudXBx.s 			page 37
 
 
  462      8DB4E234 
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  474      5B4E15BD 
  474      CDF6AA39 
  474      1D0F
-ARM GAS  /tmp/ccFravyL.s 			page 38
+ARM GAS  /tmp/ccgudXBx.s 			page 38
 
 
  475 0f73 94198DA5 		.ascii	"\224\031\215\245\377\023\3551\240\3636\376U\217\307"
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  487      7E2D93A7 
  488 1043 3159F5CF 		.ascii	"1Y\365\317r\336rg\233\235\304f*\216 n\004\"\325q\373"
  488      72DE7267 
-ARM GAS  /tmp/ccFravyL.s 			page 39
+ARM GAS  /tmp/ccgudXBx.s 			page 39
 
 
  488      9B9DC466 
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  499      C65EC2
  500 111d F4366BCD 		.ascii	"\3646k\315ZN\330\327R\231.5\177\220\335\200\010\355"
  500      5A4ED8D7 
-ARM GAS  /tmp/ccFravyL.s 			page 40
+ARM GAS  /tmp/ccgudXBx.s 			page 40
 
 
  500      52992E35 
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  511      AAD2BB10 
  511      AE60484E 
  511      4A54326C 
-ARM GAS  /tmp/ccFravyL.s 			page 41
+ARM GAS  /tmp/ccgudXBx.s 			page 41
 
 
  512 1208 1892D5D6 		.ascii	"\030\222\325\326]\3047r\271\344\354\365u\316\3630\371"
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  524      35BBD9D9 
  524      279951DB 
  524      1153C33C 
-ARM GAS  /tmp/ccFravyL.s 			page 42
+ARM GAS  /tmp/ccgudXBx.s 			page 42
 
 
  524      A3
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  537 13b0 23F611B5 		.ascii	"#\366\021\265\204:\233\245Y\026N2\032\243a)G\026>3\234"
  537      843A9BA5 
  537      59164E32 
-ARM GAS  /tmp/ccFravyL.s 			page 43
+ARM GAS  /tmp/ccgudXBx.s 			page 43
 
 
  537      1AA36129 
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  548      84
  549 148b 3AD23EB5 		.ascii	":\322>\265\202\373@\274\231\370\260\232\330\346\370"
  549      82FB40BC 
-ARM GAS  /tmp/ccFravyL.s 			page 44
+ARM GAS  /tmp/ccgudXBx.s 			page 44
 
 
  549      99F8B09A 
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  560      2550F9F5 
  561 156c D09CA496 		.ascii	"\320\234\244\226\237h\337\376\006+\005\352\277\337\376"
  561      9F68DFFE 
-ARM GAS  /tmp/ccFravyL.s 			page 45
+ARM GAS  /tmp/ccgudXBx.s 			page 45
 
 
  561      062B05EA 
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  572      03FBB940 
  572      757B62A7 
  573 1648 34AC42AD 		.ascii	"4\254B\255\227\206\332}\221\277\243\221R\274Y\350\360"
-ARM GAS  /tmp/ccFravyL.s 			page 46
+ARM GAS  /tmp/ccgudXBx.s 			page 46
 
 
  573      9786DA7D 
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  584      90CCEB09 
  584      27B45CE5 
  584      D1
-ARM GAS  /tmp/ccFravyL.s 			page 47
+ARM GAS  /tmp/ccgudXBx.s 			page 47
 
 
  585 171d 3F32AB0C 		.ascii	"?2\253\014Th\314\254\3628\250<\246Vy\212\252\274\331"
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  596      EE7CB111 
  597 17f9 C5E7988C 		.ascii	"\305\347\230\214#\025\341\005.[\275b\277a\207\201y\300"
  597      2315E105 
-ARM GAS  /tmp/ccFravyL.s 			page 48
+ARM GAS  /tmp/ccgudXBx.s 			page 48
 
 
  597      2E5BBD62 
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  609 18d5 3C695172 		.ascii	"<iQr\011m\251e\234}-\007/7\374/\274\316d\324\017\027"
  609      096DA965 
  609      9C7D2D07 
-ARM GAS  /tmp/ccFravyL.s 			page 49
+ARM GAS  /tmp/ccgudXBx.s 			page 49
 
 
  609      2F37FC2F 
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  620      2D0ABD
  621 19b3 6FFE9D9C 		.ascii	"o\376\235\234Z\237s\240\317\373\\\237l\320'\213\353"
  621      5A9F73A0 
-ARM GAS  /tmp/ccFravyL.s 			page 50
+ARM GAS  /tmp/ccgudXBx.s 			page 50
 
 
  621      CFFB5C9F 
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  632      6C7C9095 
  633 1a8a 738288AC 		.ascii	"s\202\210\254\000\221\327\265\326o\243\333}\263\275"
  633      0091D7B5 
-ARM GAS  /tmp/ccFravyL.s 			page 51
+ARM GAS  /tmp/ccgudXBx.s 			page 51
 
 
  633      D66FA3DB 
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  644      90E2
  645 1b5e 39167B78 		.ascii	"9\026{x\265\203\277\352\323y\371Og\256\260_\345\302"
  645      B583BFEA 
-ARM GAS  /tmp/ccFravyL.s 			page 52
+ARM GAS  /tmp/ccgudXBx.s 			page 52
 
 
  645      D379F94F 
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  656      DB908E2D 
  656      908EE816 
  657 1c49 EF409E7E 		.ascii	"\357@\236~\365B\276vi\335\321=\200v\200\007\000\235"
-ARM GAS  /tmp/ccFravyL.s 			page 53
+ARM GAS  /tmp/ccgudXBx.s 			page 53
 
 
  657      F542BE76 
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  669 1d18 7AC2CC1F 		.ascii	"z\302\314\037\316\036\035\021\314tS\254\261\362\314"
  669      CE1E1D11 
  669      CC7453AC 
-ARM GAS  /tmp/ccFravyL.s 			page 54
+ARM GAS  /tmp/ccgudXBx.s 			page 54
 
 
  669      B1F2CC
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  681      D213A766 
  681      C31CD5F1 
  681      A7B545
-ARM GAS  /tmp/ccFravyL.s 			page 55
+ARM GAS  /tmp/ccgudXBx.s 			page 55
 
 
  682 1dfc 474CB0B7 		.ascii	"GL\260\267\302\363\277O\010\321\2549\034\346!\034fe"
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  693      BB205527 
  693      2FEBC2B2 
  693      4D61EFA0 
-ARM GAS  /tmp/ccFravyL.s 			page 56
+ARM GAS  /tmp/ccgudXBx.s 			page 56
 
 
  693      C33A
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  705      0FEDF3F1 
  705      0809
  706 1f9d DDB7CF   		.ascii	"\335\267\317"
-ARM GAS  /tmp/ccFravyL.s 			page 57
+ARM GAS  /tmp/ccgudXBx.s 			page 57
 
 
  707 1fa0 C777EF01 		.ascii	"\307w\357\001\315\317\274\017\370y\371\005\205H!\241"
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  719 206b 5E877CFF 		.ascii	"^\207|\377\333\017\240`\260\217O`(h\250\225\002A\202"
  719      DB0FA060 
  719      B08F4F60 
-ARM GAS  /tmp/ccFravyL.s 			page 58
+ARM GAS  /tmp/ccgudXBx.s 			page 58
 
 
  719      2868A895 
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  731      8E6AE0AB 
  731      93A88F1C 
  731      A403
-ARM GAS  /tmp/ccFravyL.s 			page 59
+ARM GAS  /tmp/ccgudXBx.s 			page 59
 
 
  732 2150 924F7070 		.ascii	"\222Opp`\320v\210\323\220\340\320 \010\"\211\206\221"
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  743      A0A0DF60 
  743      A0
  744 2223 A3E40BA3 		.ascii	"\243\344\013\243\340\357\027\022*H\337\212\240G\210"
-ARM GAS  /tmp/ccFravyL.s 			page 60
+ARM GAS  /tmp/ccgudXBx.s 			page 60
 
 
  744      E0EF1712 
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  755      2D594E92 
  755      7C25853A 
  756 2303 3AC0151D 		.ascii	":\300\025\035w\035\035\374\320\377\361\203Tx`\015s\012"
-ARM GAS  /tmp/ccFravyL.s 			page 61
+ARM GAS  /tmp/ccgudXBx.s 			page 61
 
 
  756      771D1DFC 
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  767      F090BFFF 
  767      6FFFA5F5 
  768 23dc 0C0DF60B 		.ascii	"\014\015\366\013\334\017Z\272Ht\316\221\244\275\377"
-ARM GAS  /tmp/ccFravyL.s 			page 62
+ARM GAS  /tmp/ccgudXBx.s 			page 62
 
 
  768      DC0F5ABA 
@@ -3669,7 +3669,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  769      0B5D84F7 
  769      93
  770              		.text
- 771              		.section	.gnu.lto_.symtab.a6cf0ab344e1911,"",%progbits
+ 771              		.section	.gnu.lto_.symtab.bb05d06a3b4f20a,"",%progbits
  772 0000 5F726561 		.ascii	"_read_r\000"
  772      645F7200 
  773 0008 00       		.ascii	"\000"
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  802      00
  803 007f 00       		.ascii	"\000"
  804 0080 00       		.ascii	"\000"
-ARM GAS  /tmp/ccFravyL.s 			page 63
+ARM GAS  /tmp/ccgudXBx.s 			page 63
 
 
  805 0081 00       		.ascii	"\000"
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  827      272D6666 
  827      756E6374 
  828 0132 20272D66 		.ascii	" '-fno-common' '-flto' '-fsingle-precision-constant"
-ARM GAS  /tmp/ccFravyL.s 			page 64
+ARM GAS  /tmp/ccgudXBx.s 			page 64
 
 
  828      6E6F2D63 
@@ -3790,7 +3790,7 @@ ARM GAS  /tmp/ccFravyL.s 			page 1
  831              		.comm	__gnu_lto_v1,1,1
  832              		.comm	__gnu_lto_slim,1,1
  833              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /tmp/ccFravyL.s 			page 65
+ARM GAS  /tmp/ccgudXBx.s 			page 65
 
 
 DEFINED SYMBOLS

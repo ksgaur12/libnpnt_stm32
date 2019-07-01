@@ -6127,6 +6127,8 @@ const char* BEGIN_X509_CRL     = "-----BEGIN X509 CRL-----";
 const char* END_X509_CRL       = "-----END X509 CRL-----";
 const char* BEGIN_RSA_PRIV     = "-----BEGIN RSA PRIVATE KEY-----";
 const char* END_RSA_PRIV       = "-----END RSA PRIVATE KEY-----";
+const char* BEGIN_RSA_PUB      = "-----BEGIN RSA PUBLIC KEY-----";
+const char* END_RSA_PUB        = "-----END RSA PUBLIC KEY-----";
 const char* BEGIN_PRIV_KEY     = "-----BEGIN PRIVATE KEY-----";
 const char* END_PRIV_KEY       = "-----END PRIVATE KEY-----";
 const char* BEGIN_ENC_PRIV_KEY = "-----BEGIN ENCRYPTED PRIVATE KEY-----";
@@ -6194,6 +6196,13 @@ int wc_DerToPemEx(const byte* der, word32 derSz, byte* output, word32 outSz,
         XSTRNCAT(header, "\n", 1);
 
         XSTRNCPY(footer, END_RSA_PRIV, footerLen);
+        XSTRNCAT(footer, "\n", 1);
+    }
+    else if(type == RSA_PUBLICKEY_TYPE){
+        XSTRNCPY(header, BEGIN_RSA_PUB, headerLen);
+        XSTRNCAT(header, "\n", 1);
+
+        XSTRNCPY(footer, END_RSA_PUB, footerLen);
         XSTRNCAT(footer, "\n", 1);
     }
 #ifndef NO_DSA

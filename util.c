@@ -12,13 +12,12 @@ void get_rx_num(){
 
 void debug(const char *fmt, ...){
 #if USE_DEBUG
-	chprintf((BaseSequentialStream *)&SDU1, "%s", "logger: ");
+	chprintf((BaseSequentialStream *)&SERIAL_LINE, "%s", "");
 	va_list ap;
 	va_start(ap, fmt);
-	chvprintf((BaseSequentialStream *)&SDU1, fmt, ap);
+	chvprintf((BaseSequentialStream *)&SERIAL_LINE, fmt, ap);
 	va_end(ap);
-
-	chprintf((BaseSequentialStream *)&SDU1, "%s", "\r\n");
+	chprintf((BaseSequentialStream *)&SERIAL_LINE, "\n");
 
 #else
 	(void)fmt;

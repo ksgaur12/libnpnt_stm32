@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccq8lIcK.s 			page 1
+ARM GAS  /tmp/ccqPg6RD.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -15,7 +15,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
   12              		.file	"logging.c"
   13              		.text
   14              	.Ltext0:
-  15              		.section	.gnu.lto_.inline.e7a7c41635849952,"",%progbits
+  15              		.section	.gnu.lto_.inline.9d1f986c50250862,"",%progbits
   16 0000 789C6365 		.ascii	"x\234ce`b\260`@\000f bb``bZ \317\300\002\224\003\002"
   16      6062B060 
   16      40006620 
@@ -25,7 +25,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
   17      0C110600 
   17      57D802B0 
   18              		.text
-  19              		.section	.gnu.lto_wolfSSL_SetLoggingCb.e7a7c41635849952,"",%progbits
+  19              		.section	.gnu.lto_wolfSSL_SetLoggingCb.9d1f986c50250862,"",%progbits
   20 0000 789C6550 		.ascii	"x\234ePMKBA\024\275\367\335\227-\312\332\026\270p\221"
   20      4D4B4241 
   20      14BDF7DD 
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
   26 0073 556EDF6E 		.ascii	"Un\337n\363\265\036\331\"\332\271}X/\227\272]E\301\313"
   26      F3B51ED9 
   26      22DAB97D 
-ARM GAS  /tmp/ccq8lIcK.s 			page 2
+ARM GAS  /tmp/ccqPg6RD.s 			page 2
 
 
   26      582F97BA 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
   38 0147 CE5A787E 		.ascii	"\316Zx~6\3421\302\232G\017\005\002\301\231\200[\003"
   38      36E231C2 
   38      9A470F05 
-ARM GAS  /tmp/ccq8lIcK.s 			page 3
+ARM GAS  /tmp/ccqPg6RD.s 			page 3
 
 
   38      02C19980 
@@ -126,7 +126,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
   39 0159 F4FF00BF 		.ascii	"\364\377\000\277\205tD"
   39      857444
   40              		.text
-  41              		.section	.gnu.lto_wolfSSL_Debugging_ON.e7a7c41635849952,"",%progbits
+  41              		.section	.gnu.lto_wolfSSL_Debugging_ON.9d1f986c50250862,"",%progbits
   42 0000 789C6365 		.ascii	"x\234ce`b`bd`\260a``\220\001b\006\026\006F&\006 fd\006"
   42      60626062 
   42      6460B061 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
   51      990CDD20 
   52 00c1 4BC6A62F 		.ascii	"K\306\246//N7\263\203\254\230\313\014\262\241\343\363"
   52      2F4E37B3 
-ARM GAS  /tmp/ccq8lIcK.s 			page 4
+ARM GAS  /tmp/ccqPg6RD.s 			page 4
 
 
   52      83AC98CB 
@@ -212,7 +212,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
   58      00001EB1 
   58      61AA
   59              		.text
-  60              		.section	.gnu.lto_wolfSSL_Debugging_OFF.e7a7c41635849952,"",%progbits
+  60              		.section	.gnu.lto_wolfSSL_Debugging_OFF.9d1f986c50250862,"",%progbits
   61 0000 789C6365 		.ascii	"x\234ce`b(f``\260\001bQ f`f`db\000bFF \207\221\241\236"
   61      60622866 
   61      6060B001 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
   65      0DFFFEB7 
   65      37
   66 0062 1C3827BB 		.ascii	"\0348'\273\360+\037\320\202.\260\266nf \223\371-c\223"
-ARM GAS  /tmp/ccq8lIcK.s 			page 5
+ARM GAS  /tmp/ccqPg6RD.s 			page 5
 
 
   66      F02B1FD0 
@@ -261,7 +261,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
   69      D74B6600 
   69      00474836 
   70              		.text
-  71              		.section	.gnu.lto_.symbol_nodes.e7a7c41635849952,"",%progbits
+  71              		.section	.gnu.lto_.symbol_nodes.9d1f986c50250862,"",%progbits
   72 0000 789C6365 		.ascii	"x\234ce`b\260`\000\002\246\223L\365\014\014\023\316"
   72      6062B060 
   72      0002A693 
@@ -276,13 +276,13 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
   74      00A58A0E 
   74      35
   75              		.text
-  76              		.section	.gnu.lto_.refs.e7a7c41635849952,"",%progbits
+  76              		.section	.gnu.lto_.refs.9d1f986c50250862,"",%progbits
   77 0000 789C6365 		.ascii	"x\234ce`b`d\000\002\000\000I\000\011"
   77      60626064 
   77      00020000 
   77      490009
   78              		.text
-  79              		.section	.gnu.lto_.decls.e7a7c41635849952,"",%progbits
+  79              		.section	.gnu.lto_.decls.9d1f986c50250862,"",%progbits
   80 0000 789C8D53 		.ascii	"x\234\215S[H\024a\024\376\317\314T\353\356j\213X\011"
   80      5B481461 
   80      14FECFCC 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
   82      7B72D232 
   82      B508EB21 
   82      F1566AE0 
-ARM GAS  /tmp/ccq8lIcK.s 			page 6
+ARM GAS  /tmp/ccqPg6RD.s 			page 6
 
 
   83 003c E66D5DDD 		.ascii	"\346m]\335\025\252%\313\254\004/QDe\027,\003/\021v\346"
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
   94      756BCF2E 
   94      7456F357 
   94      7908D682 
-ARM GAS  /tmp/ccq8lIcK.s 			page 7
+ARM GAS  /tmp/ccqPg6RD.s 			page 7
 
 
   94      80EE7777 
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
  106      EFB70E
  107 01ea 1DBF47DA 		.ascii	"\035\277G\3322\347v\015\365\007A\244\236\356\327>~i"
  107      32E7760D 
-ARM GAS  /tmp/ccq8lIcK.s 			page 8
+ARM GAS  /tmp/ccqPg6RD.s 			page 8
 
 
  107      F50741A4 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
  118      442DD734 
  118      BCDF2AA3 
  118      168C
-ARM GAS  /tmp/ccq8lIcK.s 			page 9
+ARM GAS  /tmp/ccqPg6RD.s 			page 9
 
 
  119 02ca 0AC8A180 		.ascii	"\012\310\241\200\306!\202\204\234\315\316JKJ\212OI\262"
@@ -515,7 +515,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
  125      B8B83FA6 
  125      BE9836
  126              		.text
- 127              		.section	.gnu.lto_.symtab.e7a7c41635849952,"",%progbits
+ 127              		.section	.gnu.lto_.symtab.9d1f986c50250862,"",%progbits
  128 0000 776F6C66 		.ascii	"wolfSSL_SetLoggingCb\000"
  128      53534C5F 
  128      5365744C 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
  138 003c 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
  138      00000000 
  139 0044 C2000000 		.ascii	"\302\000\000\000"
-ARM GAS  /tmp/ccq8lIcK.s 			page 10
+ARM GAS  /tmp/ccqPg6RD.s 			page 10
 
 
  140 0048 776F6C66 		.ascii	"wolfSSL_Debugging_OFF\000"
@@ -594,7 +594,7 @@ ARM GAS  /tmp/ccq8lIcK.s 			page 1
  157              		.comm	__gnu_lto_v1,1,1
  158              		.comm	__gnu_lto_slim,1,1
  159              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /tmp/ccq8lIcK.s 			page 11
+ARM GAS  /tmp/ccqPg6RD.s 			page 11
 
 
 DEFINED SYMBOLS

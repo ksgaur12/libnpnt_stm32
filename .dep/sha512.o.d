@@ -162,13 +162,7 @@ build/obj/sha512.o: \
  chibios_stable-18.2.x/ext/lwip/src/include/lwip/ip6_addr.h \
  chibios_stable-18.2.x/ext/lwip/src/include/lwip/def.h \
  chibios_stable-18.2.x/ext/lwip/src/include/lwip/sys.h \
- chibios_stable-18.2.x/os/various/lwip_bindings/arch/sys_arch.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha512.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/error-crypt.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/cpuid.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/logging.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfcrypt/src/misc.c \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/misc.h
+ chibios_stable-18.2.x/os/various/lwip_bindings/arch/sys_arch.h
 
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/settings.h:
 
@@ -505,15 +499,3 @@ chibios_stable-18.2.x/ext/lwip/src/include/lwip/def.h:
 chibios_stable-18.2.x/ext/lwip/src/include/lwip/sys.h:
 
 chibios_stable-18.2.x/os/various/lwip_bindings/arch/sys_arch.h:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha512.h:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/error-crypt.h:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/cpuid.h:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/logging.h:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfcrypt/src/misc.c:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/misc.h:

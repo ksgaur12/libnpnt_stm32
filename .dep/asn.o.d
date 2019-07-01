@@ -177,7 +177,6 @@ build/obj/asn.o: chibios_stable-18.2.x/ext/wolfssl/wolfcrypt/src/asn.c \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/coding.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/md2.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/hmac.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha512.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/error-crypt.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/pwdbased.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/des3.h \
@@ -553,8 +552,6 @@ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/coding.h:
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/md2.h:
 
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/hmac.h:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha512.h:
 
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/error-crypt.h:
 

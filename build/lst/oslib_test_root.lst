@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccgeBzE1.s 			page 1
+ARM GAS  /tmp/ccEUp7cU.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -15,13 +15,13 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
   12              		.file	"oslib_test_root.c"
   13              		.text
   14              	.Ltext0:
-  15              		.section	.gnu.lto_.inline.bee19c5c9d5123ef,"",%progbits
+  15              		.section	.gnu.lto_.inline.fa4a9d0192b5700a,"",%progbits
   16 0000 789C6365 		.ascii	"x\234ce`\002Bd\000\000\000\250\000\012"
   16      60024264 
   16      000000A8 
   16      000A
   17              		.text
-  18              		.section	.gnu.lto_oslib_test_suite.bee19c5c9d5123ef,"",%progbits
+  18              		.section	.gnu.lto_oslib_test_suite.fa4a9d0192b5700a,"",%progbits
   19 0000 789C6365 		.ascii	"x\234ce`b\310a``H`\200\200\351\314\214\315\277\366\177"
   19      6062C861 
   19      60604860 
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
   26      3D23BD0A 
   26      FD92D4E2 
   26      12FDFCE2 
-ARM GAS  /tmp/ccgeBzE1.s 			page 2
+ARM GAS  /tmp/ccEUp7cU.s 			page 2
 
 
   26      9C
@@ -78,7 +78,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
   29      00C5F4
   30 00c3 4984     		.ascii	"I\204"
   31              		.text
-  32              		.section	.gnu.lto_oslib_test_suite_array.bee19c5c9d5123ef,"",%progbits
+  32              		.section	.gnu.lto_oslib_test_suite_array.fa4a9d0192b5700a,"",%progbits
   33 0000 789C6365 		.ascii	"x\234ce`b\270\307\300\300\340\310\000\001\323\231\031"
   33      6062B8C7 
   33      C0C0E0C8 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
   41 0085 0CE35A20 		.ascii	"\014\343Z \265\206Q\206q5\220^\005\244W\002\351\025"
   41      B5865186 
   41      7135905E 
-ARM GAS  /tmp/ccgeBzE1.s 			page 3
+ARM GAS  /tmp/ccEUp7cU.s 			page 3
 
 
   41      05A45702 
@@ -144,7 +144,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
   45      00D0A9
   46 00da 6630     		.ascii	"f0"
   47              		.text
-  48              		.section	.gnu.lto_.symbol_nodes.bee19c5c9d5123ef,"",%progbits
+  48              		.section	.gnu.lto_.symbol_nodes.fa4a9d0192b5700a,"",%progbits
   49 0000 789C6365 		.ascii	"x\234ce`b0a\000\002\326]L\014\255J \306N&F\010c7\023"
   49      60623061 
   49      0002D65D 
@@ -158,7 +158,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
   51      00CF5A06 
   51      A8
   52              		.text
-  53              		.section	.gnu.lto_.refs.bee19c5c9d5123ef,"",%progbits
+  53              		.section	.gnu.lto_.refs.fa4a9d0192b5700a,"",%progbits
   54 0000 789C05C1 		.ascii	"x\234\005\301\261\001\000\000\010\303\2404\326\331\377"
   54      B1010000 
   54      08C3A034 
@@ -168,7 +168,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
   55      EBF202A8 
   55      0036
   56              		.text
-  57              		.section	.gnu.lto_.decls.bee19c5c9d5123ef,"",%progbits
+  57              		.section	.gnu.lto_.decls.fa4a9d0192b5700a,"",%progbits
   58 0000 789CAD56 		.ascii	"x\234\255VmLSW\030>o\357\245\224\362\241)\304\261\244"
   58      6D4C5357 
   58      183E6FEF 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
   59      CB363ED4 
   59      2CFBB1C4 
   59      25CBE67E 
-ARM GAS  /tmp/ccgeBzE1.s 			page 4
+ARM GAS  /tmp/ccEUp7cU.s 			page 4
 
 
   59      EDD7
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
   71      1CC1816B 
   71      70DA9953 
   71      FBAB
-ARM GAS  /tmp/ccgeBzE1.s 			page 5
+ARM GAS  /tmp/ccEUp7cU.s 			page 5
 
 
   72 00f8 C069449C 		.ascii	"\300iD\234f\0155\364\200`d\036\272\237\234y\032&\274"
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
   83      F38446D8 
   83      C8DC2BFE 
   83      0CDC5F
-ARM GAS  /tmp/ccgeBzE1.s 			page 6
+ARM GAS  /tmp/ccEUp7cU.s 			page 6
 
 
   84 01d8 C3685BAB 		.ascii	"\303h[\253\236\273\227\200\012\361\342`{\204\360\021"
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
   95      476E201F 
   95      2450C0E3 
   95      594525E1 
-ARM GAS  /tmp/ccgeBzE1.s 			page 7
+ARM GAS  /tmp/ccEUp7cU.s 			page 7
 
 
   96 02ae 76695355 		.ascii	"viSU\204\300eO\273\224\236v\374\354\001\346.\003\254"
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
  107      53EC0BA0 
  107      91FF06
  108 0381 E893AB77 		.ascii	"\350\223\253w\013\263\275\215I\366\372To\336\316\025"
-ARM GAS  /tmp/ccgeBzE1.s 			page 8
+ARM GAS  /tmp/ccEUp7cU.s 			page 8
 
 
  108      0BB3BD8D 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
  120 0452 4CC921C2 		.ascii	"L\311!\302(\030`P\316\326\273qP\316\366\036\313\366"
  120      28186050 
  120      CED6BB71 
-ARM GAS  /tmp/ccgeBzE1.s 			page 9
+ARM GAS  /tmp/ccEUp7cU.s 			page 9
 
 
  120      50CEF61E 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
  132      B0CD22DB 
  132      23
  133 052d C636C7A4 		.ascii	"\3066\307\244g\234lB\353\367\375\316F\255:\3649\237"
-ARM GAS  /tmp/ccgeBzE1.s 			page 10
+ARM GAS  /tmp/ccEUp7cU.s 			page 10
 
 
  133      679C6C42 
@@ -597,8 +597,8 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
  144      20FFBF5F 
  144      11F80E
  145              		.text
- 146              		.section	.gnu.lto_.symtab.bee19c5c9d5123ef,"",%progbits
-ARM GAS  /tmp/ccgeBzE1.s 			page 11
+ 146              		.section	.gnu.lto_.symtab.fa4a9d0192b5700a,"",%progbits
+ARM GAS  /tmp/ccEUp7cU.s 			page 11
 
 
  147 0000 6F736C69 		.ascii	"oslib_test_suite\000"
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
  176 00b7 ED000000 		.ascii	"\355\000\000\000"
  177 00bb 6F736C69 		.ascii	"oslib_test_sequence_004\000"
  177      625F7465 
-ARM GAS  /tmp/ccgeBzE1.s 			page 12
+ARM GAS  /tmp/ccEUp7cU.s 			page 12
 
 
  177      73745F73 
@@ -712,7 +712,7 @@ ARM GAS  /tmp/ccgeBzE1.s 			page 1
  194              		.comm	__gnu_lto_v1,1,1
  195              		.comm	__gnu_lto_slim,1,1
  196              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /tmp/ccgeBzE1.s 			page 13
+ARM GAS  /tmp/ccEUp7cU.s 			page 13
 
 
 DEFINED SYMBOLS

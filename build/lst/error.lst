@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccIYwHvI.s 			page 1
+ARM GAS  /tmp/ccN1EAUP.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -15,7 +15,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
   12              		.file	"error.c"
   13              		.text
   14              	.Ltext0:
-  15              		.section	.gnu.lto_.inline.6c00f4b3f70c93a4,"",%progbits
+  15              		.section	.gnu.lto_.inline.74fe88c2aaa3b17c,"",%progbits
   16 0000 789C6365 		.ascii	"x\234ce`b0g@\000&\006\006f fbZ \317\300\002\3421002"
   16      60623067 
   16      40002606 
@@ -28,7 +28,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
   18 002b 9407D200 		.ascii	"\224\007\322\000h\367\004\274"
   18      68F704BC 
   19              		.text
-  20              		.section	.gnu.lto_wc_GetErrorString.6c00f4b3f70c93a4,"",%progbits
+  20              		.section	.gnu.lto_wc_GetErrorString.74fe88c2aaa3b17c,"",%progbits
   21 0000 789C6550 		.ascii	"x\234eP=K\003A\020\235\311\\b!jci\261\001\243X\230\240"
   21      3D4B0341 
   21      109DC95C 
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
   26      290F610A 
   27 006b 676999F0 		.ascii	"gi\231\360*s\264J3T\"@\215\307\367\213\302c\265\032"
   27      2A73B44A 
-ARM GAS  /tmp/ccIYwHvI.s 			page 2
+ARM GAS  /tmp/ccN1EAUP.s 			page 2
 
 
   27      33542240 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
   39 0147 CBEE0BC7 		.ascii	"\313\356\013\307\243\315-\355\301\326\340p(:l\207\206"
   39      A3CD2DED 
   39      C1D6E070 
-ARM GAS  /tmp/ccIYwHvI.s 			page 3
+ARM GAS  /tmp/ccN1EAUP.s 			page 3
 
 
   39      283A6C87 
@@ -139,7 +139,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
   42      7E00
   43 018d 99A28BB7 		.ascii	"\231\242\213\267"
   44              		.text
-  45              		.section	.gnu.lto_wc_ErrorString.6c00f4b3f70c93a4,"",%progbits
+  45              		.section	.gnu.lto_wc_ErrorString.74fe88c2aaa3b17c,"",%progbits
   46 0000 789C5D50 		.ascii	"x\234]P\317K\033a\020\235\267\263\273Q\253\275\025\204"
   46      CF4B1B61 
   46      109DB7B3 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
   53      67A20A93 
   53      0E04E8
   54 008a 12D4B7D2 		.ascii	"\022\324\267\322\326\002O\261\317\200)\355\325\227\371"
-ARM GAS  /tmp/ccIYwHvI.s 			page 4
+ARM GAS  /tmp/ccN1EAUP.s 			page 4
 
 
   54      D6024FB1 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
   66      7FB52A43 
   66      9BF195B0 
   66      83A8
-ARM GAS  /tmp/ccIYwHvI.s 			page 5
+ARM GAS  /tmp/ccN1EAUP.s 			page 5
 
 
   67 0167 CF2DF403 		.ascii	"\317-\364\003c\265`\037ZB\305\244Z \324\236\364\213"
@@ -263,7 +263,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
   70      33CE3F74 
   71 01b1 9E39     		.ascii	"\2369"
   72              		.text
-  73              		.section	.gnu.lto_.symbol_nodes.6c00f4b3f70c93a4,"",%progbits
+  73              		.section	.gnu.lto_.symbol_nodes.74fe88c2aaa3b17c,"",%progbits
   74 0000 789C6365 		.ascii	"x\234ce`bpg\000\002\246\223L\365\014\014\023\31610\000"
   74      60627067 
   74      0002A693 
@@ -283,13 +283,13 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
   77      02A41900 
   77      9AE51337 
   78              		.text
-  79              		.section	.gnu.lto_.refs.6c00f4b3f70c93a4,"",%progbits
+  79              		.section	.gnu.lto_.refs.74fe88c2aaa3b17c,"",%progbits
   80 0000 789C6365 		.ascii	"x\234ce`b`d\000\002\000\000I\000\011"
   80      60626064 
   80      00020000 
   80      490009
   81              		.text
-  82              		.section	.gnu.lto_.decls.6c00f4b3f70c93a4,"",%progbits
+  82              		.section	.gnu.lto_.decls.74fe88c2aaa3b17c,"",%progbits
   83 0000 789C9D54 		.ascii	"x\234\235TmL\223W\024\276\247o\201R\012e\314\030~\260"
   83      6D4C9357 
   83      14BEA76F 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
   84 0014 8460B6F0 		.ascii	"\204`\266\360c\355+\2308\377m\311\262\271?\233&\313"
   84      63ED2B98 
   84      38FF6DC9 
-ARM GAS  /tmp/ccIYwHvI.s 			page 6
+ARM GAS  /tmp/ccN1EAUP.s 			page 6
 
 
   84      B2B93F9B 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
   95      095D84
   96 00eb 05A18C82 		.ascii	"\005\241\214\202\213<4\225,\254\331}X\005\241\234\005"
   96      8B3C3495 
-ARM GAS  /tmp/ccIYwHvI.s 			page 7
+ARM GAS  /tmp/ccN1EAUP.s 			page 7
 
 
   96      2CACD97D 
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
  107      6827D006 
  107      3AB92A2B 
  108 01cf 2F95E8A3 		.ascii	"/\225\350\243O\262\200\363\244H\0255A\003\002\353\031"
-ARM GAS  /tmp/ccIYwHvI.s 			page 8
+ARM GAS  /tmp/ccN1EAUP.s 			page 8
 
 
  108      4FB280F3 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
  119      1EF554
  120 02a5 5F6D1D9D 		.ascii	"_m\035\235\263=Z\240\217A\217\252\306\371\216\325p\256"
  120      B33D5AA0 
-ARM GAS  /tmp/ccIYwHvI.s 			page 9
+ARM GAS  /tmp/ccN1EAUP.s 			page 9
 
 
  120      8F418FAA 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
  131      FA6C2479 
  131      CCA2
  132 0375 945336CC 		.ascii	"\224S6\314\336\215\030\003C\274\012\313\356\234c\362"
-ARM GAS  /tmp/ccIYwHvI.s 			page 10
+ARM GAS  /tmp/ccN1EAUP.s 			page 10
 
 
  132      DE8D1803 
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
  144 0445 B0D8D235 		.ascii	"\260\330\3225\273?\370(\366\355\204\004\2426e$;v\231"
  144      BB3FF828 
  144      F6ED8404 
-ARM GAS  /tmp/ccIYwHvI.s 			page 11
+ARM GAS  /tmp/ccN1EAUP.s 			page 11
 
 
  144      A2366524 
@@ -650,7 +650,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
  154      0BFE05CE 
  154      BD6681
  155              		.text
- 156              		.section	.gnu.lto_.symtab.6c00f4b3f70c93a4,"",%progbits
+ 156              		.section	.gnu.lto_.symtab.74fe88c2aaa3b17c,"",%progbits
  157 0000 77635F47 		.ascii	"wc_GetErrorString\000"
  157      65744572 
  157      726F7253 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
  157      6700
  158 0012 00       		.ascii	"\000"
  159 0013 00       		.ascii	"\000"
-ARM GAS  /tmp/ccIYwHvI.s 			page 12
+ARM GAS  /tmp/ccN1EAUP.s 			page 12
 
 
  160 0014 00       		.ascii	"\000"
@@ -717,7 +717,7 @@ ARM GAS  /tmp/ccIYwHvI.s 			page 1
  180              		.comm	__gnu_lto_v1,1,1
  181              		.comm	__gnu_lto_slim,1,1
  182              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /tmp/ccIYwHvI.s 			page 13
+ARM GAS  /tmp/ccN1EAUP.s 			page 13
 
 
 DEFINED SYMBOLS

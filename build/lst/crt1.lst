@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccA5Ldxo.s 			page 1
+ARM GAS  /tmp/ccgBORM3.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -15,7 +15,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
   12              		.file	"crt1.c"
   13              		.text
   14              	.Ltext0:
-  15              		.section	.gnu.lto_.inline.c7ded67db5082700,"",%progbits
+  15              		.section	.gnu.lto_.inline.fef85cddb1693bf5,"",%progbits
   16 0000 789C6365 		.ascii	"x\234ce`b\210a@\000V\006\006f&\006\006&\246\005\362"
   16      60628861 
   16      40005606 
@@ -31,7 +31,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
   18      620000E1 
   18      2404D4
   19              		.text
-  20              		.section	.gnu.lto___core_init.c7ded67db5082700,"",%progbits
+  20              		.section	.gnu.lto___core_init.fef85cddb1693bf5,"",%progbits
   21 0000 789C6365 		.ascii	"x\234ce`b(f``p\003bQ f`f`db\000bFF \207\221\241\236"
   21      60622866 
   21      60607003 
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
   25      37
   26 0062 1C38B298 		.ascii	"\0348\262\230q\257\027\320\202.\260\266nf \223\371-"
   26      71AF17D0 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 2
+ARM GAS  /tmp/ccgBORM3.s 			page 2
 
 
   26      822EB0B6 
@@ -85,7 +85,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
   30      63
   31 00c5 8D388B   		.ascii	"\2158\213"
   32              		.text
-  33              		.section	.gnu.lto___early_init.c7ded67db5082700,"",%progbits
+  33              		.section	.gnu.lto___early_init.fef85cddb1693bf5,"",%progbits
   34 0000 789C6365 		.ascii	"x\234ce`b(d``p\003bQ f`f`db\000bFF \207\221\241\236"
   34      60622864 
   34      60607003 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
   40      36A58B19 
   40      A81C28EA 
   40      929C91
-ARM GAS  /tmp/ccA5Ldxo.s 			page 3
+ARM GAS  /tmp/ccgBORM3.s 			page 3
 
 
   41 0081 9994995F 		.ascii	"\231\224\231_\034_\\\222\230\224\223\252kh\241g\244"
@@ -141,7 +141,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
   44      0000B8B9 
   44      3752
   45              		.text
-  46              		.section	.gnu.lto___late_init.c7ded67db5082700,"",%progbits
+  46              		.section	.gnu.lto___late_init.fef85cddb1693bf5,"",%progbits
   47 0000 789C6365 		.ascii	"x\234ce`b(d``p\003bQ f`f`db\000bFF \207\221\241\236"
   47      60622864 
   47      60607003 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
   54      1C5F5C92 
   54      989493AA 
   54      6B68A167 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 4
+ARM GAS  /tmp/ccgBORM3.s 			page 4
 
 
   54      A4
@@ -197,7 +197,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
   57      00008A29 
   57      3707
   58              		.text
-  59              		.section	.gnu.lto___default_exit.c7ded67db5082700,"",%progbits
+  59              		.section	.gnu.lto___default_exit.fef85cddb1693bf5,"",%progbits
   60 0000 789C6365 		.ascii	"x\234ce`bHc``p\003bY f`f`db\000b0\311\310P\317\304X"
   60      60624863 
   60      60607003 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
   68 0097 E6E7E903 		.ascii	"\346\347\351\003\305\213JJ\013\364\035\203|\235}+@\242"
   68      C58B4A4A 
   68      0BF41D83 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 5
+ARM GAS  /tmp/ccgBORM3.s 			page 5
 
 
   68      7C9D7D2B 
@@ -251,7 +251,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
   70 00ba 0C006163 		.ascii	"\014\000ac6\307"
   70      36C7
   71              		.text
-  72              		.section	.gnu.lto___init_ram_areas.c7ded67db5082700,"",%progbits
+  72              		.section	.gnu.lto___init_ram_areas.fef85cddb1693bf5,"",%progbits
   73 0000 789C9555 		.ascii	"x\234\225UKlTe\024\376\317=\3671s\247\217i:\032b\010"
   73      4B6C5465 
   73      14FECF3D 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
   82      5D7DDEF5 
   82      63EC4118 
   82      EBB83DA2 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 6
+ARM GAS  /tmp/ccgBORM3.s 			page 6
 
 
   82      6D392AE9 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
   94 0187 E27EAF89 		.ascii	"\342~\257\211K78\234|\202\3637\020N\317BV\256=\356\220"
   94      4B37389C 
   94      7C82F337 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 7
+ARM GAS  /tmp/ccgBORM3.s 			page 7
 
 
   94      104ECF42 
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  106      030B964B 
  106      1F58CF97 
  106      F94F
-ARM GAS  /tmp/ccA5Ldxo.s 			page 8
+ARM GAS  /tmp/ccgBORM3.s 			page 8
 
 
  107 026c BEB3CCC7 		.ascii	"\276\263\314\307\2337J|b\005\200J\246\315\335\232A\007"
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  118 0331 7A20AFBA 		.ascii	"z \257\272\342)U_b\325\374\002\273\274^u\205\243\232"
  118      E229555F 
  118      62D5FC02 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 9
+ARM GAS  /tmp/ccgBORM3.s 			page 9
 
 
  118      BBBC5E75 
@@ -538,10 +538,10 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  130      4721FA37 
  130      17C9139C 
  131              		.text
-ARM GAS  /tmp/ccA5Ldxo.s 			page 10
+ARM GAS  /tmp/ccgBORM3.s 			page 10
 
 
- 132              		.section	.gnu.lto_ram_areas.c7ded67db5082700,"",%progbits
+ 132              		.section	.gnu.lto_ram_areas.fef85cddb1693bf5,"",%progbits
  133 0000 789C75D1 		.ascii	"x\234u\321\311K[Q\024\006\360{\3365\306\331\326\241"
  133      C94B5B51 
  133      1406F07B 
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  144      82F0EC72 
  144      2A5E0461 
  144      B6A5F5A7 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 11
+ARM GAS  /tmp/ccgBORM3.s 			page 11
 
 
  144      29CC
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  155      49E582CA 
  156 01a8 956F54BE 		.ascii	"\225oT\276V9\251r\202\334\202\276\252_\255\267\315\327"
  156      5639A972 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 12
+ARM GAS  /tmp/ccgBORM3.s 			page 12
 
 
  156      82DC82BE 
@@ -682,7 +682,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  160      7F384112 
  160      4F
  161              		.text
- 162              		.section	.gnu.lto_.symbol_nodes.c7ded67db5082700,"",%progbits
+ 162              		.section	.gnu.lto_.symbol_nodes.fef85cddb1693bf5,"",%progbits
  163 0000 789C55CD 		.ascii	"x\234U\315IR\002A\030\005\341?\253\273D\304\001\024"
  163      49520241 
  163      1805E13F 
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  169      8075F9C8 
  169      867C6253 
  169      0ED9
-ARM GAS  /tmp/ccA5Ldxo.s 			page 13
+ARM GAS  /tmp/ccgBORM3.s 			page 13
 
 
  170 0080 92CF14E5 		.ascii	"\222\317\024\345\013%9b[\276\262#\307\224\345\033\025"
@@ -737,7 +737,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  172      FE01
  173 00b3 118D3149 		.ascii	"\021\2151I"
  174              		.text
- 175              		.section	.gnu.lto_.refs.c7ded67db5082700,"",%progbits
+ 175              		.section	.gnu.lto_.refs.fef85cddb1693bf5,"",%progbits
  176 0000 789C05C1 		.ascii	"x\234\005\301\207\025\202@\024\000\260o\236\207\015"
  176      87158240 
  176      1400B06F 
@@ -758,7 +758,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  179      3F7A3303 
  179      90
  180              		.text
- 181              		.section	.gnu.lto_.decls.c7ded67db5082700,"",%progbits
+ 181              		.section	.gnu.lto_.decls.fef85cddb1693bf5,"",%progbits
  182 0000 789CAD96 		.ascii	"x\234\255\226kPT\311\025\307oO\017\3140\214`\300\315"
  182      6B5054C9 
  182      15C76F4F 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  185      04415151 
  185      1EA2E273 
  185      0151C407 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 14
+ARM GAS  /tmp/ccgBORM3.s 			page 14
 
 
  185      F2
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  197      28089EAF 
  197      C3FD
  198 0113 7B901A74 		.ascii	"{\220\032t\017t\033t\007\324\246\304\250Q\356\217\335"
-ARM GAS  /tmp/ccA5Ldxo.s 			page 15
+ARM GAS  /tmp/ccgBORM3.s 			page 15
 
 
  198      0F741B74 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  209 01db 7FD7AC55 		.ascii	"\177\327\254U\253$RL(\367\356\034/\374Ch\211\314/\355"
  209      AB24524C 
  209      28F7EE1C 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 16
+ARM GAS  /tmp/ccgBORM3.s 			page 16
 
 
  209      2FFC4368 
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  221 02b3 E279EB03 		.ascii	"\342y\353\003\177\026\252\302\026\252+\265\371\214\217"
  221      7F16AAC2 
  221      16AA2BB5 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 17
+ARM GAS  /tmp/ccgBORM3.s 			page 17
 
 
  221      F98C8F
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  233      4ADB7935 
  233      09D61D62 
  233      A1EB
-ARM GAS  /tmp/ccA5Ldxo.s 			page 18
+ARM GAS  /tmp/ccgBORM3.s 			page 18
 
 
  234 0393 3A2B7E9B 		.ascii	":+~\233;$\313\363\310U\242#\215\216z,\200\370\022d\227"
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  245      D6
  246 0465 322B49A9 		.ascii	"2+I\251\223d'\275<\244\201F_O\221\325\3541K\214\273"
  246      936427BD 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 19
+ARM GAS  /tmp/ccgBORM3.s 			page 19
 
 
  246      3CA48146 
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  257      13FC5275 
  257      21A1
  258 0542 37E3F6B4 		.ascii	"7\343\366\264?m\347\204\272KY\262VA\364g\321\314 \004"
-ARM GAS  /tmp/ccA5Ldxo.s 			page 20
+ARM GAS  /tmp/ccgBORM3.s 			page 20
 
 
  258      3F6DE784 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  269      43DB3961 
  269      ACB87CFB 
  269      0CA1
-ARM GAS  /tmp/ccA5Ldxo.s 			page 21
+ARM GAS  /tmp/ccgBORM3.s 			page 21
 
 
  270 061d 0A230260 		.ascii	"\012#\002`\004\001o\0200\335\264\347\272\212\366r@]"
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  281      40774EDF 
  281      61B10CC9 
  281      0220
-ARM GAS  /tmp/ccA5Ldxo.s 			page 22
+ARM GAS  /tmp/ccgBORM3.s 			page 22
 
 
  282 06f6 19012908 		.ascii	"\031\001)\01088\222\331\250\246\343\0340y\265%X\254"
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  294 07bb 8E2B65DC 		.ascii	"\216+e\334T\234\241\021\253\220#\020r\220\220\213\204"
  294      549CA111 
  294      AB902310 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 23
+ARM GAS  /tmp/ccgBORM3.s 			page 23
 
 
  294      7290908B 
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  306      F186C8D8 
  306      98
  307 0894 98588B01 		.ascii	"\230X\213\001\346\343\254\253W\031~\367\347\357\226"
-ARM GAS  /tmp/ccA5Ldxo.s 			page 24
+ARM GAS  /tmp/ccgBORM3.s 			page 24
 
 
  307      E6E3ACAB 
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  319      F31A3ED4 
  319      5B628DF6 
  319      77FEAC2A 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 25
+ARM GAS  /tmp/ccgBORM3.s 			page 25
 
 
  319      F691
@@ -1475,7 +1475,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  326      0069BB6C 
  326      D9
  327              		.text
- 328              		.section	.gnu.lto_.symtab.c7ded67db5082700,"",%progbits
+ 328              		.section	.gnu.lto_.symtab.fef85cddb1693bf5,"",%progbits
  329 0000 5F5F636F 		.ascii	"__core_init\000"
  329      72655F69 
  329      6E697400 
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  341 0037 5F5F6C61 		.ascii	"__late_init\000"
  341      74655F69 
  341      6E697400 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 26
+ARM GAS  /tmp/ccgBORM3.s 			page 26
 
 
  342 0043 00       		.ascii	"\000"
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  374 00e0 00       		.ascii	"\000"
  375 00e1 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
  375      00000000 
-ARM GAS  /tmp/ccA5Ldxo.s 			page 27
+ARM GAS  /tmp/ccgBORM3.s 			page 27
 
 
  376 00e9 E7000000 		.ascii	"\347\000\000\000"
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  407      6E69745F 
  407      74657874 
  407      5F5F00
-ARM GAS  /tmp/ccA5Ldxo.s 			page 28
+ARM GAS  /tmp/ccgBORM3.s 			page 28
 
 
  408 019b 00       		.ascii	"\000"
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  441 0237 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
  441      00000000 
  442 023f FD000000 		.ascii	"\375\000\000\000"
-ARM GAS  /tmp/ccA5Ldxo.s 			page 29
+ARM GAS  /tmp/ccgBORM3.s 			page 29
 
 
  443 0243 5F5F7261 		.ascii	"__ram3_clear__\000"
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  473      745F5F00 
  474 02ed 00       		.ascii	"\000"
  475 02ee 02       		.ascii	"\002"
-ARM GAS  /tmp/ccA5Ldxo.s 			page 30
+ARM GAS  /tmp/ccgBORM3.s 			page 30
 
 
  476 02ef 00       		.ascii	"\000"
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  507      00000000 
  508 0396 13010000 		.ascii	"\023\001\000\000"
  509 039a 5F5F7261 		.ascii	"__ram6_init__\000"
-ARM GAS  /tmp/ccA5Ldxo.s 			page 31
+ARM GAS  /tmp/ccgBORM3.s 			page 31
 
 
  509      6D365F69 
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  540 0442 00       		.ascii	"\000"
  541 0443 02       		.ascii	"\002"
  542 0444 00       		.ascii	"\000"
-ARM GAS  /tmp/ccA5Ldxo.s 			page 32
+ARM GAS  /tmp/ccgBORM3.s 			page 32
 
 
  543 0445 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
@@ -1916,7 +1916,7 @@ ARM GAS  /tmp/ccA5Ldxo.s 			page 1
  562              		.comm	__gnu_lto_v1,1,1
  563              		.comm	__gnu_lto_slim,1,1
  564              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /tmp/ccA5Ldxo.s 			page 33
+ARM GAS  /tmp/ccgBORM3.s 			page 33
 
 
 DEFINED SYMBOLS

@@ -174,7 +174,6 @@ build/obj/rsa.o: chibios_stable-18.2.x/ext/wolfssl/wolfcrypt/src/rsa.c \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/hash.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/md5.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha512.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/logging.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfcrypt/src/misc.c \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/misc.h
@@ -538,8 +537,6 @@ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/hash.h:
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/md5.h:
 
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha.h:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha512.h:
 
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/logging.h:
 

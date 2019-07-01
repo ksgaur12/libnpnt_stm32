@@ -15,7 +15,7 @@
 #define USE_WOLF_TIME_T
 #define XTIME(tl)       (LowResTimer())
 
-#define WOLFCRYPT_ONLY
+//#define WOLFCRYPT_ONLY
 
 /* ARM  */
 
@@ -51,6 +51,7 @@
 #undef  WOLFSSL_DEBUG_MATH
 //#define WOLFSSL_DEBUG_MATH
 
+#define WOLFSSL_PEM_TO_DER
 
 /* ------------------------------------------------------------------------- */
 /* Crypto */
@@ -192,26 +193,14 @@
 #endif
 
 /* Sha256 */
-#undef NO_SHA256
+#undef WOLFSSL_SHA224
 #if 1
+	#define WOLFSSL_SHA224
 #else
     #define NO_SHA256
 #endif
 
-/* Sha512 */
-#undef WOLFSSL_SHA512
-#if 1
-    #define WOLFSSL_SHA512
 
-    /* Sha384 */
-    #undef  WOLFSSL_SHA384
-    #if 1
-        #define WOLFSSL_SHA384
-    #endif
-
-    /* over twice as small, but 50% slower */
-    //#define USE_SLOW_SHA2
-#endif
 
 /* MD5 */
 #undef  NO_MD5

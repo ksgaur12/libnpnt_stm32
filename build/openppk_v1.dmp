@@ -1,0 +1,1420 @@
+
+build/openppk_v1.elf:     file format elf32-littlearm
+build/openppk_v1.elf
+architecture: arm, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x08004301
+
+Program Header:
+0x70000001 off    0x00025314 vaddr 0x08025314 paddr 0x08025314 align 2**2
+         filesz 0x00000008 memsz 0x00000008 flags r--
+    LOAD off    0x00000000 vaddr 0x08000000 paddr 0x08000000 align 2**16
+         filesz 0x0002531c memsz 0x0002531c flags r-x
+    LOAD off    0x00034400 vaddr 0x20004400 paddr 0x0802531c align 2**16
+         filesz 0x00000a68 memsz 0x0000ae58 flags rw-
+    LOAD off    0x00040000 vaddr 0x20000000 paddr 0x20000000 align 2**16
+         filesz 0x00000000 memsz 0x00030000 flags rw-
+private flags = 5000200: [Version5 EABI] [soft-float ABI]
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .mstack       00004000  20000000  20000000  00040000  2**0
+                  ALLOC
+  1 .pstack       00000400  20004000  20004000  00040000  2**0
+                  ALLOC
+  2 .vectors      000001e0  08004000  08004000  00004000  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .text         0001ed3c  080041e0  080041e0  000041e0  2**6
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .rodata       000023f4  08022f20  08022f20  00022f20  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  5 .ARM.exidx    00000008  08025314  08025314  00025314  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  6 .data         00000a68  20004400  0802531c  00034400  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+  7 .bss          0000a3f0  20004e68  08025d84  00034e68  2**3
+                  ALLOC
+  8 .ram0_init    00000000  2000f258  2000f258  00034e68  2**2
+                  CONTENTS
+  9 .ram0         00000000  2000f258  2000f258  00034e68  2**2
+                  CONTENTS
+ 10 .ram1_init    00000000  20000000  20000000  00034e68  2**2
+                  CONTENTS
+ 11 .ram1         00000000  20000000  20000000  00034e68  2**2
+                  CONTENTS
+ 12 .ram2_init    00000000  2001c000  2001c000  00034e68  2**2
+                  CONTENTS
+ 13 .ram2         00000000  2001c000  2001c000  00034e68  2**2
+                  CONTENTS
+ 14 .ram3_init    00000000  20020000  20020000  00034e68  2**2
+                  CONTENTS
+ 15 .ram3         00000000  20020000  20020000  00034e68  2**2
+                  CONTENTS
+ 16 .ram4_init    00000000  10000000  10000000  00034e68  2**2
+                  CONTENTS
+ 17 .ram4         00000000  10000000  10000000  00034e68  2**2
+                  CONTENTS
+ 18 .ram5_init    00000000  40024000  40024000  00034e68  2**2
+                  CONTENTS
+ 19 .ram5         00000000  40024000  40024000  00034e68  2**2
+                  CONTENTS
+ 20 .ram6_init    00000000  00000000  00000000  00034e68  2**2
+                  CONTENTS
+ 21 .ram6         00000000  00000000  00000000  00034e68  2**2
+                  CONTENTS
+ 22 .ram7_init    00000000  00000000  00000000  00034e68  2**2
+                  CONTENTS
+ 23 .ram7         00000000  00000000  00000000  00034e68  2**2
+                  CONTENTS
+ 24 .heap         00020da8  2000f258  2000f258  00040000  2**0
+                  ALLOC
+ 25 .ARM.attributes 00000033  00000000  00000000  00034e68  2**0
+                  CONTENTS, READONLY
+ 26 .comment      0000007f  00000000  00000000  00034e9b  2**0
+                  CONTENTS, READONLY
+ 27 .debug_line   0001007d  00000000  00000000  00034f1a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 28 .debug_info   00038083  00000000  00000000  00044f97  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 29 .debug_abbrev 00004e89  00000000  00000000  0007d01a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 30 .debug_aranges 00003578  00000000  00000000  00081ea8  2**3
+                  CONTENTS, READONLY, DEBUGGING
+ 31 .debug_ranges 000034a8  00000000  00000000  00085420  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 32 .debug_str    0000deb0  00000000  00000000  000888c8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 33 .debug_frame  0000c6f4  00000000  00000000  00096778  2**2
+                  CONTENTS, READONLY, DEBUGGING
+SYMBOL TABLE:
+20000000 l    d  .mstack	00000000 .mstack
+20004000 l    d  .pstack	00000000 .pstack
+08004000 l    d  .vectors	00000000 .vectors
+080041e0 l    d  .text	00000000 .text
+08022f20 l    d  .rodata	00000000 .rodata
+08025314 l    d  .ARM.exidx	00000000 .ARM.exidx
+20004400 l    d  .data	00000000 .data
+20004e68 l    d  .bss	00000000 .bss
+2000f258 l    d  .ram0_init	00000000 .ram0_init
+2000f258 l    d  .ram0	00000000 .ram0
+20000000 l    d  .ram1_init	00000000 .ram1_init
+20000000 l    d  .ram1	00000000 .ram1
+2001c000 l    d  .ram2_init	00000000 .ram2_init
+2001c000 l    d  .ram2	00000000 .ram2
+20020000 l    d  .ram3_init	00000000 .ram3_init
+20020000 l    d  .ram3	00000000 .ram3
+10000000 l    d  .ram4_init	00000000 .ram4_init
+10000000 l    d  .ram4	00000000 .ram4
+40024000 l    d  .ram5_init	00000000 .ram5_init
+40024000 l    d  .ram5	00000000 .ram5
+00000000 l    d  .ram6_init	00000000 .ram6_init
+00000000 l    d  .ram6	00000000 .ram6
+00000000 l    d  .ram7_init	00000000 .ram7_init
+00000000 l    d  .ram7	00000000 .ram7
+2000f258 l    d  .heap	00000000 .heap
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    df *ABS*	00000000 build/obj/vectors.o
+08004304 l       .text	00000000 .stay
+00000000 l    df *ABS*	00000000 build/obj/crt0_v7m.o
+0800425a l       .text	00000000 msloop
+08004268 l       .text	00000000 psloop
+08004278 l       .text	00000000 dloop
+0800428c l       .text	00000000 bloop
+080042a2 l       .text	00000000 initloop
+080042ae l       .text	00000000 endinitloop
+080042b6 l       .text	00000000 finiloop
+080042c2 l       .text	00000000 endfiniloop
+00000000 l    df *ABS*	00000000 build/obj/chcoreasm_v7m.o
+e000ed04 l       *ABS*	00000000 SCB_ICSR
+10000000 l       *ABS*	00000000 ICSR_PENDSVSET
+00000000 l    df *ABS*	00000000 lib_a-strcmp.o
+00000000 l    df *ABS*	00000000 lib_a-strlen.o
+00000000 l    df *ABS*	00000000 lib_a-memcpy.o
+00000000 l    df *ABS*	00000000 _aeabi_uldivmod.o
+00000000 l    df *ABS*	00000000 libgcc2.c
+00000000 l    df *ABS*	00000000 _dvmd_tls.o
+00000000 l    df *ABS*	00000000 _arm_addsubdf3.o
+00000000 l    df *ABS*	00000000 _arm_muldivdf3.o
+00000000 l    df *ABS*	00000000 _arm_fixdfsi.o
+00000000 l    df *ABS*	00000000 _arm_truncdfsf2.o
+00000000 l    df *ABS*	00000000 lib_a-memchr.o
+00000000 l    df *ABS*	00000000 _arm_cmpdf2.o
+00000000 l    df *ABS*	00000000 _arm_unorddf2.o
+00000000 l    df *ABS*	00000000 
+080055d0 l     F .text	0000001a chCoreAlloc
+08005720 l     F .text	00000092 delay
+080056d0 l     F .text	00000044 debug
+080057c0 l     F .text	0000001c chHeapAlloc.lto_priv.3
+080058a0 l     F .text	00000014 chRegSetThreadName.lto_priv.0
+20005d80 l     O .bss	00001000 der
+20006d80 l     O .bss	00001000 der_pub
+20007d80 l     O .bss	00001000 pem
+20008d80 l     O .bss	00001000 pem_pub
+20009d80 l     O .bss	00001000 signature
+2000ad80 l     O .bss	00001000 sig_value
+2000bd80 l     O .bss	00001000 sig_base64
+2000cd80 l     O .bss	00000020 shasha
+2000cda0 l     O .bss	00000001 current_state
+080058c0 l     F .text	00000174 get_hash_sha256
+08005a40 l     F .text	000000ac rsa_key_generation
+2000cda8 l     O .bss	00002090 waThread_crypto
+08005af0 l     F .text	00000044 Thread_crypto
+2000ee38 l     O .bss	000001d0 waReader
+08005b40 l     F .text	00000140 Reader
+08005c80 l     F .text	00000040 ecc_init_keypair
+08005cc0 l     F .text	00000014 chRegSetThreadName.lto_priv.1
+20004468 l     O .data	0000000c Serial_config
+2000f008 l     O .bss	000001d0 waThread1
+08005ce0 l     F .text	0000008c Thread1
+00000000 l    df *ABS*	00000000 
+00000000 l    df *ABS*	00000000 
+00000000 l    df *ABS*	00000000 
+080062e0 l     F .text	000000c0 Sha256Update
+080063c0 l     F .text	000000f4 Sha256Final
+08006520 l     F .text	00000080 InitSha224
+080065a0 l     F .text	0000003c wc_InitSha224_ex
+00000000 l    df *ABS*	00000000 
+08006750 l     F .text	0000005c mp_sqrmod
+08006a90 l     F .text	00000094 mp_cnt_lsb
+08006b30 l     F .text	0000004c s_is_power_of_two
+08006b80 l     F .text	000001dc mp_div_d
+08006d60 l     F .text	00000020 mp_mod_d
+08006d80 l     F .text	0000014c mp_prime_miller_rabin
+08006ed0 l     F .text	0000005c mp_prime_is_divisible
+08007050 l     F .text	000000f0 mp_prime_is_prime
+08007380 l     F .text	00000018 rotlFixed
+080073a0 l     F .text	00000014 rotrFixed
+080073c0 l     F .text	0000002c ByteReverseWord32
+00000000 l    df *ABS*	00000000 
+08007db0 l     F .text	00000140 s_mp_add
+08008bb0 l     F .text	00000018 mp_dr_setup
+08008da0 l     F .text	0000007c mp_reduce_2k_setup
+080087b0 l     F .text	00000280 fast_mp_montgomery_reduce
+08008bd0 l     F .text	0000012a mp_dr_reduce
+08008d00 l     F .text	0000009c mp_reduce_2k
+08008eb0 l     F .text	00000020 mp_2expt
+08008e20 l     F .text	0000008c mp_set_bit
+080093c0 l     F .text	0000022e fast_s_mp_sqr
+08009790 l     F .text	000001dc s_mp_sqr
+080095f0 l     F .text	0000019e fast_s_mp_mul_digs
+08009970 l     F .text	00000150 s_mp_mul_digs
+08009110 l     F .text	000000e0 mp_mul_2
+0800a050 l     F .text	0000003e mp_reduce_setup
+0800a270 l     F .text	00000056 mp_reduce_2k_setup_l
+0800a090 l     F .text	0000013e mp_reduce
+0800a1d0 l     F .text	00000096 mp_reduce_2k_l
+0800a2d0 l     F .text	0000016e s_mp_mul_high_digs
+0800a440 l     F .text	000001b6 fast_s_mp_mul_high_digs
+00000000 l    df *ABS*	00000000 
+0800a690 l     F .text	00000024 mp_free
+0800a820 l     F .text	00000054 mp_to_unsigned_bin_at_pos
+0800b310 l     F .text	000002ea fast_mp_invmod
+0800b600 l     F .text	0000042a mp_invmod_slow
+00000000 l    df *ABS*	00000000 
+0800be70 l     F .text	0000001c get_rand_digit
+0800c1f0 l     F .text	00000174 CEscape
+0800c370 l     F .text	00000398 DoBase64_Encode
+00000000 l    df *ABS*	00000000 
+0800cc00 l     F .text	00000018 rotlFixed.lto_priv.376
+0800cc20 l     F .text	00000016 min
+0800cc40 l     F .text	00000c00 Transform
+0800d840 l     F .text	00000030 AddLength
+0800d870 l     F .text	0000004c _InitMd5
+0800d8c0 l     F .text	0000003c wc_InitMd5_ex
+00000000 l    df *ABS*	00000000 
+0800db70 l     F .text	000003c2 wc_DerToPemEx
+0800df40 l     F .text	00000224 SetRsaPublicKey
+0800e170 l     F .text	0000006c GetRsaInt
+0800e1e0 l     F .text	00000030 FreeTmpRsas
+00000000 l    df *ABS*	00000000 
+0800e410 l     F .text	00000032 BytePrecision
+0800e500 l     F .text	00000034 IsSigAlgoECDSA
+00000000 l    df *ABS*	00000000 
+0800e630 l     F .text	00000104 Hash_DRBG_Generate
+0800e740 l     F .text	0000008a Hash_DRBG_Instantiate
+0800e7d0 l     F .text	0000004c Hash_DRBG_Uninstantiate
+0800eb80 l     F .text	000000bc wc_RNG_HealthTestLocal
+0800ec40 l     F .text	00000030 wc_GenerateSeed
+0800eaa0 l     F .text	000000d2 wc_RNG_HealthTest
+0800ed30 l     F .text	00000076 GetASNHeader
+0800ede0 l     F .text	00000060 GetASNNull
+0800ef30 l     F .text	00000064 SetASNInt
+0800fbf0 l     F .text	000000ba ToTraditionalInline
+00000000 l    df *ABS*	00000000 
+0800fef0 l     F .text	00000024 ForceZero
+0800ff20 l     F .text	00000044 ConstantCompare
+0800ff70 l     F .text	00000072 wc_RsaCleanup
+080101a0 l     F .text	00000146 RsaMGF1
+080102f0 l     F .text	00000074 RsaMGF
+08010370 l     F .text	000001fa RsaUnPad_OAEP
+08010570 l     F .text	000000fa RsaUnPad
+08010670 l     F .text	00000060 wc_RsaUnPad_ex
+080106d0 l     F .text	0000037a wc_RsaFunctionSync
+08010a50 l     F .text	00000080 wc_RsaFunction
+08010ad0 l     F .text	000001da RsaPrivateDecryptEx
+08011040 l     F .text	00000018 rotlFixed
+08011340 l     F .text	00000038 array_add_one
+00000000 l    df *ABS*	00000000 
+080115c0 l     F .text	0000003c wc_InitSha_ex
+00000000 l    df *ABS*	00000000 
+00000000 l    df *ABS*	00000000 
+00000000 l    df *ABS*	00000000 
+08013110 l     F .text	0000005a chEvtSignalI
+08013170 l     F .text	00000010 port_lock.lto_priv.621
+08013180 l     F .text	00000010 port_unlock.lto_priv.630
+08013190 l     F .text	00000008 chSysLock.lto_priv.645
+080131a0 l     F .text	00000008 chSysUnlock.lto_priv.638
+080131d0 l     F .text	00000064 chCoreAllocAlignedWithOffsetI
+08013560 l     F .text	0000001c chCoreAllocAlignedI
+08013580 l     F .text	0000001c chPoolObjectInit
+080135a0 l     F .text	0000000e dyn_list_init
+08013610 l     F .text	00000010 port_lock.lto_priv.623
+08013620 l     F .text	00000010 port_unlock.lto_priv.632
+08013630 l     F .text	00000008 port_lock_from_isr
+08013640 l     F .text	00000008 port_unlock_from_isr
+08013710 l     F .text	000000a0 long_to_string_with_divisor
+080137b0 l     F .text	00000020 ch_ltoa
+080137d0 l     F .text	000000b0 ftoa
+00000000 l    df *ABS*	00000000 
+08013d60 l     F .text	000000f8 chVTDoTickI
+08014380 l     F .text	00000020 _scheduler_init
+08014000 l     F .text	00000024 _vt_init
+08014c00 l     F .text	00000034 _tm_init
+08014830 l     F .text	00000080 _thread_init
+08014910 l     F .text	00000028 chThdCreate
+08013ee0 l     F .text	00000024 chSysIsCounterWithinX
+08013f40 l     F .text	00000012 chTimeAddX.lto_priv.716
+08013f60 l     F .text	00000012 chTimeDiffX.lto_priv.705
+08013f80 l     F .text	0000000a st_lld_get_counter.lto_priv.702
+08013f90 l     F .text	00000012 port_timer_start_alarm
+08013fb0 l     F .text	00000008 port_timer_stop_alarm.lto_priv.714
+08013fc0 l     F .text	00000012 port_timer_set_alarm.lto_priv.712
+08013fe0 l     F .text	0000000c port_timer_get_time.lto_priv.700
+08013ff0 l     F .text	0000000c chVTGetSystemTimeX.lto_priv.698
+08014250 l     F .text	00000010 port_lock.lto_priv.663
+08014260 l     F .text	00000010 port_unlock.lto_priv.657
+08014270 l     F .text	00000008 port_lock_from_isr
+08014280 l     F .text	00000008 port_unlock_from_isr
+08014290 l     F .text	00000014 queue_init.lto_priv.687
+080142b0 l     F .text	00000022 queue_fifo_remove.lto_priv.681
+080142e0 l     F .text	00000020 queue_dequeue.lto_priv.679
+08014300 l     F .text	00000020 chSchIsRescRequiredI
+08014320 l     F .text	00000008 chSysLockFromISR.lto_priv.710
+08014330 l     F .text	00000008 chSysUnlockFromISR.lto_priv.708
+08014340 l     F .text	00000018 chVTIsArmedI
+08014360 l     F .text	00000012 chSemFastSignalI
+080143f0 l     F .text	0000004c chSchReadyAheadI
+08014490 l     F .text	00000078 wakeup
+08014620 l     F .text	00000040 chSchDoRescheduleAhead
+080146a0 l     F .text	00000010 port_lock.lto_priv.664
+080146b0 l     F .text	00000010 port_unlock.lto_priv.658
+080146c0 l     F .text	0000000e list_init
+080146d0 l     F .text	0000001a list_notempty
+080146f0 l     F .text	00000014 queue_init.lto_priv.688
+08014710 l     F .text	0000001a queue_notempty.lto_priv.685
+08014730 l     F .text	0000001a list_remove
+08014750 l     F .text	00000026 queue_insert.lto_priv.691
+08014780 l     F .text	00000022 queue_fifo_remove.lto_priv.682
+080147b0 l     F .text	00000008 chSysLock.lto_priv.675
+080147c0 l     F .text	00000008 chSysUnlock.lto_priv.670
+080147d0 l     F .text	0000000c chThdGetSelfX.lto_priv.655
+080147e0 l     F .text	00000014 chThdSleepS
+08014800 l     F .text	00000022 chThdDoDequeueNextI
+08014b80 l     F .text	0000000c port_rt_get_counter_value.lto_priv.696
+08014b90 l     F .text	0000006e tm_stop
+08014c40 l     F .text	00000036 chTMObjectInit
+08014c80 l     F .text	00000016 chTMStartMeasurementX
+08014ca0 l     F .text	00000024 chTMStopMeasurementX
+08014cd0 l     F .text	00000010 port_lock.lto_priv.667
+08014ce0 l     F .text	00000010 port_unlock.lto_priv.661
+08014cf0 l     F .text	00000014 queue_init.lto_priv.690
+08014d10 l     F .text	0000001a queue_notempty.lto_priv.686
+08014d30 l     F .text	00000044 queue_prio_insert
+08014d80 l     F .text	00000022 queue_fifo_remove.lto_priv.684
+08014db0 l     F .text	00000020 queue_dequeue.lto_priv.680
+08014dd0 l     F .text	00000008 chSysLock.lto_priv.678
+08014de0 l     F .text	00000008 chSysUnlock.lto_priv.673
+08014df0 l     F .text	00000018 chMtxQueueNotEmptyS
+00000000 l    df *ABS*	00000000 
+08014fc0 l     F .text	00000138 otg_epin_handler
+08015100 l     F .text	0000017c otg_epout_handler
+08015280 l     F .text	00000116 otg_isoc_in_failed_handler
+080153a0 l     F .text	000000de otg_isoc_out_failed_handler
+08015480 l     F .text	000001b8 usb_lld_serve_interrupt
+08015c50 l     F .text	00000010 port_lock.lto_priv.737
+08015c60 l     F .text	00000010 port_unlock.lto_priv.733
+08015c70 l     F .text	00000008 port_lock_from_isr.lto_priv.729
+08015c80 l     F .text	00000008 port_unlock_from_isr.lto_priv.725
+08015c90 l     F .text	00000008 chSysLock
+08015ca0 l     F .text	00000008 chSysUnlock
+08015cb0 l     F .text	00000008 chSysLockFromISR.lto_priv.754
+08015cc0 l     F .text	00000008 chSysUnlockFromISR.lto_priv.751
+08015cd0 l     F .text	00000008 osalSysLock
+08015ce0 l     F .text	00000008 osalSysUnlock
+08015cf0 l     F .text	00000008 osalSysLockFromISR.lto_priv.748
+08015d00 l     F .text	00000008 osalSysUnlockFromISR.lto_priv.744
+08015d10 l     F .text	00000012 osalThreadSleep
+08015d30 l     F .text	0000001a osalThreadSuspendS
+08015d50 l     F .text	00000016 osalThreadResumeI.lto_priv.760
+08015d70 l     F .text	0000008c sdc_lld_prepare_read_bytes
+08015e00 l     F .text	00000078 sdc_lld_prepare_read
+08015e80 l     F .text	00000078 sdc_lld_prepare_write
+08015f00 l     F .text	00000094 sdc_lld_wait_transaction_end
+08015fa0 l     F .text	00000098 sdc_lld_collect_errors
+08016040 l     F .text	0000009c sdc_lld_error_cleanup
+08016460 l     F .text	000000c8 sdc_lld_read_aligned
+08016530 l     F .text	000000cc sdc_lld_write_aligned
+08016710 l     F .text	00000010 port_lock.lto_priv.738
+08016720 l     F .text	00000010 port_unlock.lto_priv.734
+08016730 l     F .text	00000008 port_lock_from_isr.lto_priv.730
+08016740 l     F .text	00000008 port_unlock_from_isr.lto_priv.726
+08016750 l     F .text	00000008 chSysLockFromISR.lto_priv.755
+08016760 l     F .text	00000008 chSysUnlockFromISR.lto_priv.752
+08016770 l     F .text	00000008 osalSysLockFromISR.lto_priv.749
+08016780 l     F .text	00000008 osalSysUnlockFromISR.lto_priv.745
+08016790 l     F .text	00000008 osalOsTimerHandlerI
+08016850 l     F .text	00000010 port_lock.lto_priv.739
+08016860 l     F .text	00000010 port_unlock.lto_priv.735
+08016870 l     F .text	00000008 port_lock_from_isr.lto_priv.731
+08016880 l     F .text	00000008 port_unlock_from_isr.lto_priv.727
+08016890 l     F .text	00000008 chSysLockFromISR.lto_priv.756
+080168a0 l     F .text	00000008 chSysUnlockFromISR.lto_priv.753
+080168b0 l     F .text	00000008 osalSysLockFromISR.lto_priv.750
+080168c0 l     F .text	00000008 osalSysUnlockFromISR.lto_priv.746
+080168d0 l     F .text	00000016 osalEventBroadcastFlagsI
+080168f0 l     F .text	000000bc usart_init
+080169b0 l     F .text	00000072 set_error
+08016a30 l     F .text	00000160 serve_interrupt
+08016b90 l     F .text	00000018 notify1
+08016c60 l     F .text	00000042 gpio_init
+08016cb0 l     F .text	000000d0 stm32_gpio_init
+08016e00 l     F .text	0000003c __NVIC_SetPriorityGrouping
+08016e40 l     F .text	0000004c __NVIC_SetPriority
+08016ed0 l     F .text	00000010 port_lock.lto_priv.740
+08016ee0 l     F .text	00000010 port_unlock.lto_priv.736
+08016ef0 l     F .text	00000008 port_lock_from_isr.lto_priv.732
+08016f00 l     F .text	00000008 port_unlock_from_isr.lto_priv.728
+08016f10 l     F .text	00000012 port_enable
+08016f50 l     F .text	0000000a st_lld_get_counter
+08016f90 l     F .text	0000000c port_timer_get_time
+00000000 l    df *ABS*	00000000 
+080174c0 l     F .text	0000003c irqInit
+08017500 l     F .text	00000040 hal_lld_backup_domain_init
+080180f0 l     F .text	00000070 dmaInit
+08017700 l     F .text	00000010 port_lock.lto_priv.783
+08017710 l     F .text	00000010 port_unlock.lto_priv.781
+08017720 l     F .text	00000008 port_lock_from_isr.lto_priv.779
+08017730 l     F .text	00000008 port_unlock_from_isr.lto_priv.777
+08017740 l     F .text	00000008 chSysLockFromISR.lto_priv.775
+08017750 l     F .text	00000008 chSysUnlockFromISR.lto_priv.773
+08017760 l     F .text	00000008 osalSysLockFromISR.lto_priv.793
+08017770 l     F .text	00000008 osalSysUnlockFromISR.lto_priv.791
+08017780 l     F .text	00000016 osalThreadDequeueAllI.lto_priv.786
+080177a0 l     F .text	00000016 osalEventBroadcastFlagsI
+080177c0 l     F .text	00000208 can_lld_set_filters
+080179d0 l     F .text	000000b2 can_lld_tx_handler
+08017a90 l     F .text	00000074 can_lld_rx0_handler
+08017b10 l     F .text	00000074 can_lld_rx1_handler
+08017b90 l     F .text	00000082 can_lld_sce_handler
+08018160 l     F .text	00000014 queue_init
+08018180 l     F .text	00000012 chThdQueueObjectInit
+080181a0 l     F .text	00000012 osalThreadQueueObjectInit
+08018210 l     F .text	00000010 port_lock.lto_priv.784
+08018220 l     F .text	00000010 port_unlock.lto_priv.782
+08018230 l     F .text	00000008 port_lock_from_isr.lto_priv.780
+08018240 l     F .text	00000008 port_unlock_from_isr.lto_priv.778
+08018250 l     F .text	00000008 chSysLockFromISR.lto_priv.776
+08018260 l     F .text	00000008 chSysUnlockFromISR.lto_priv.774
+08018290 l     F .text	00000012 osalSysPolledDelayX
+08018410 l     F .text	00000028 otg_fifo_write_from_buffer
+08018440 l     F .text	00000050 otg_fifo_read_to_buffer
+00000000 l    df *ABS*	00000000 
+08018870 l     F .text	00000010 port_lock.lto_priv.810
+08018880 l     F .text	00000010 port_unlock.lto_priv.806
+08018890 l     F .text	00000008 chSysLock.lto_priv.835
+080188a0 l     F .text	00000008 chSysUnlock.lto_priv.832
+080188b0 l     F .text	0000000e chEvtObjectInit.lto_priv.843
+080188c0 l     F .text	00000008 osalSysLock.lto_priv.829
+080188d0 l     F .text	00000008 osalSysUnlock.lto_priv.825
+080188e0 l     F .text	00000012 osalEventObjectInit.lto_priv.841
+08018900 l     F .text	00000016 osalEventBroadcastFlagsI.lto_priv.839
+080191b0 l     F .text	00000064 usbStartReceiveI
+08019220 l     F .text	00000064 usbStartTransmitI
+08018ba0 l     F .text	00000010 port_lock.lto_priv.812
+08018bb0 l     F .text	00000010 port_unlock.lto_priv.808
+08018bc0 l     F .text	00000008 port_lock_from_isr.lto_priv.804
+08018bd0 l     F .text	00000008 port_unlock_from_isr.lto_priv.801
+08018be0 l     F .text	00000008 chSysLockFromISR.lto_priv.798
+08018bf0 l     F .text	00000008 chSysUnlockFromISR.lto_priv.795
+08018c00 l     F .text	00000008 osalSysLockFromISR.lto_priv.823
+08018c10 l     F .text	00000008 osalSysUnlockFromISR.lto_priv.821
+08018c20 l     F .text	00000016 osalThreadResumeI
+08018c40 l     F .text	0000002e get_hword
+08018c70 l     F .text	0000003a set_address
+08018cb0 l     F .text	000003e0 default_handler
+080190f0 l     F .text	000000b6 usbDisableEndpointsI
+08019860 l     F .text	00000010 port_lock.lto_priv.813
+08019870 l     F .text	00000010 port_unlock.lto_priv.809
+08019880 l     F .text	00000008 port_lock_from_isr.lto_priv.805
+08019890 l     F .text	00000008 port_unlock_from_isr.lto_priv.802
+080198a0 l     F .text	00000008 chSysLockFromISR.lto_priv.799
+080198b0 l     F .text	00000008 chSysUnlockFromISR.lto_priv.796
+00000000 l    df *ABS*	00000000 
+080199a0 l     F .text	00000002 osalInit
+0801a260 l     F .text	00000008 canInit
+0801a940 l     F .text	00000008 sdcInit
+08019a20 l     F .text	00000008 stInit
+080199e0 l     F .text	00000020 st_lld_start_alarm
+08019a00 l     F .text	0000000a st_lld_stop_alarm
+08019a10 l     F .text	00000010 st_lld_set_alarm
+08019a80 l     F .text	00000010 port_lock.lto_priv.862
+08019a90 l     F .text	00000010 port_unlock.lto_priv.857
+08019aa0 l     F .text	00000014 queue_init.lto_priv.888
+08019ac0 l     F .text	00000008 chSysLock.lto_priv.852
+08019ad0 l     F .text	00000008 chSysUnlock.lto_priv.847
+08019ae0 l     F .text	00000012 chThdQueueObjectInit.lto_priv.885
+08019b00 l     F .text	00000008 osalSysLock.lto_priv.875
+08019b10 l     F .text	00000008 osalSysUnlock.lto_priv.871
+08019b20 l     F .text	00000012 osalThreadQueueObjectInit.lto_priv.882
+08019b40 l     F .text	0000001a osalThreadEnqueueTimeoutS.lto_priv.867
+08019b60 l     F .text	00000016 osalThreadDequeueNextI.lto_priv.891
+08019b80 l     F .text	000000ba iq_read
+08019c40 l     F .text	000000ba oq_write
+0801a0b0 l     F .text	0000007a _mmcsd_get_slice
+0801a130 l     F .text	00000070 _mmcsd_get_capacity
+0801a1a0 l     F .text	0000002e _mmcsd_get_capacity_ext
+0801a1d0 l     F .text	00000014 queue_init.lto_priv.889
+0801a1f0 l     F .text	00000012 chThdQueueObjectInit.lto_priv.886
+0801a210 l     F .text	0000000e chEvtObjectInit
+0801a220 l     F .text	00000012 osalThreadQueueObjectInit.lto_priv.883
+0801a240 l     F .text	00000012 osalEventObjectInit
+0801a2d0 l     F .text	00000010 port_lock.lto_priv.865
+0801a2e0 l     F .text	00000010 port_unlock.lto_priv.860
+0801a2f0 l     F .text	00000008 chSysLock.lto_priv.855
+0801a300 l     F .text	00000008 chSysUnlock.lto_priv.850
+0801a330 l     F .text	00000012 osalThreadSleep
+0801a350 l     F .text	00000098 mode_detect
+0801a3f0 l     F .text	00000068 mmc_init
+0801a460 l     F .text	000000a4 sdc_init
+0801a510 l     F .text	0000002a mmc_cmd6_construct
+0801a540 l     F .text	0000004c sdc_cmd6_construct
+0801a590 l     F .text	0000003e sdc_cmd6_extract_info
+0801a5d0 l     F .text	0000004a sdc_cmd6_check_status
+0801a620 l     F .text	000000f6 sdc_detect_bus_clk
+0801a720 l     F .text	00000064 mmc_detect_bus_clk
+0801a790 l     F .text	00000032 detect_bus_clk
+0801a7d0 l     F .text	0000007c sdc_set_bus_width
+0801a850 l     F .text	00000084 mmc_set_bus_width
+00000000 l    df *ABS*	00000000 locale.c
+00000000 l    df *ABS*	00000000 mbtowc_r.c
+00000000 l    df *ABS*	00000000 strptime.c
+0801aba0 l     F .text	00000046 match_string
+08024ca8 l     O .rodata	00000030 _DAYS_BEFORE_MONTH
+00000000 l    df *ABS*	00000000 strtol.c
+0801b608 l     F .text	00000128 _strtol_l.isra.0
+00000000 l    df *ABS*	00000000 tzcalc_limits.c
+00000000 l    df *ABS*	00000000 tzlock.c
+00000000 l    df *ABS*	00000000 tzset.c
+00000000 l    df *ABS*	00000000 tzset_r.c
+2000f1d8 l     O .bss	0000000b __tzname_dst
+2000f1e4 l     O .bss	0000000b __tzname_std
+2000f1f0 l     O .bss	00000004 prev_tzenv
+00000000 l    df *ABS*	00000000 wctomb_r.c
+00000000 l    df *ABS*	00000000 getenv_r.c
+00000000 l    df *ABS*	00000000 gettzinfo.c
+20004a14 l     O .data	00000040 tzinfo
+00000000 l    df *ABS*	00000000 lock.c
+00000000 l    df *ABS*	00000000 malloc.c
+00000000 l    df *ABS*	00000000 mallocr.c
+00000000 l    df *ABS*	00000000 mlock.c
+00000000 l    df *ABS*	00000000 siscanf.c
+00000000 l    df *ABS*	00000000 stdio.c
+00000000 l    df *ABS*	00000000 strcpy.c
+00000000 l    df *ABS*	00000000 strncasecmp_l.c
+00000000 l    df *ABS*	00000000 strncmp.c
+00000000 l    df *ABS*	00000000 strtoul.c
+0801c51c l     F .text	00000148 _strtoul_l.isra.0
+00000000 l    df *ABS*	00000000 vfscanf.c
+080250ec l     O .rodata	00000022 basefix.7919
+00000000 l    df *ABS*	00000000 tolower_l.c
+00000000 l    df *ABS*	00000000 ungetc.c
+00000000 l    df *ABS*	00000000 envlock.c
+00000000 l    df *ABS*	00000000 fflush.c
+00000000 l    df *ABS*	00000000 findfp.c
+0801d3dc l     F .text	00000050 std.isra.0
+00000000 l    df *ABS*	00000000 mallocr.c
+00000000 l    df *ABS*	00000000 fwalk.c
+00000000 l    df *ABS*	00000000 iswspace.c
+00000000 l    df *ABS*	00000000 mbrtowc.c
+00000000 l    df *ABS*	00000000 memset.c
+00000000 l    df *ABS*	00000000 mallocr.c
+00000000 l    df *ABS*	00000000 sccl.c
+00000000 l    df *ABS*	00000000 strtoll.c
+0801dc30 l     F .text	0000019c _strtoll_l.isra.0
+00000000 l    df *ABS*	00000000 strtoull.c
+0801ddf0 l     F .text	000001bc _strtoull_l.isra.0
+00000000 l    df *ABS*	00000000 fclose.c
+00000000 l    df *ABS*	00000000 memmove.c
+00000000 l    df *ABS*	00000000 memcmp.c
+00000000 l    df *ABS*	00000000 printf.c
+00000000 l    df *ABS*	00000000 puts.c
+00000000 l    df *ABS*	00000000 strftime.c
+0801e290 l     F .text	000000d4 iso_year_adjust
+0801e364 l     F .text	00000bb0 __strftime
+00000000 l    df *ABS*	00000000 strncat.c
+00000000 l    df *ABS*	00000000 strncpy.c
+00000000 l    df *ABS*	00000000 vfprintf.c
+0802058c l     F .text	00000084 __sbprintf
+080251c4 l     O .rodata	00000010 blanks.8361
+080251d4 l     O .rodata	00000010 zeroes.8362
+00000000 l    df *ABS*	00000000 wsetup.c
+00000000 l    df *ABS*	00000000 abs.c
+00000000 l    df *ABS*	00000000 dtoa.c
+080206e0 l     F .text	00000128 quorem
+00000000 l    df *ABS*	00000000 fvwrite.c
+00000000 l    df *ABS*	00000000 labs.c
+00000000 l    df *ABS*	00000000 localeconv.c
+00000000 l    df *ABS*	00000000 makebuf.c
+00000000 l    df *ABS*	00000000 mprec.c
+080252e8 l     O .rodata	0000000c p05.7178
+00000000 l    df *ABS*	00000000 sniprintf.c
+00000000 l    df *ABS*	00000000 vfprintf.c
+080252f4 l     O .rodata	00000010 blanks.8326
+08025304 l     O .rodata	00000010 zeroes.8327
+00000000 l    df *ABS*	00000000 vfprintf.c
+08022c1c l     F .text	0000007e __sprint_r.part.0
+00000000 l    df *ABS*	00000000 mallocr.c
+00000000 l    df *ABS*	00000000 fputwc.c
+00000000 l    df *ABS*	00000000 wbuf.c
+00000000 l    df *ABS*	00000000 wcrtomb.c
+00000000 l    df *ABS*	00000000 timelocal.c
+00000000 l    df *ABS*	00000000 ctype_.c
+00000000 l    df *ABS*	00000000 month_lengths.c
+00000000 l    df *ABS*	00000000 impure.c
+20004478 l     O .data	00000428 impure_data
+00000000 l    df *ABS*	00000000 tzvars.c
+00000000 l    df *ABS*	00000000 environ.c
+2000f230 l     O .bss	00000004 initial_env
+080244bc g     O .rodata	00000009 .hidden blkAes192CbcOid.lto_priv.438
+080055a0 g     F .text	0000002c .hidden __aeabi_dcmpun
+08016fe0 g     F .text	00000060 Vector58
+08004302  w      .text	00000000 VectorE8
+08017200 g     F .text	00000138 Vector9C
+0800bb90 g     F .text	0000004a .hidden mp_set
+080056c0 g     F .text	0000000e _isatty_r
+08005564 g     F .text	00000012 .hidden __aeabi_dcmple
+08019800 g     F .text	00000054 .hidden nvicEnableVector
+0801c37c g     F .text	000000ba strcpy
+20004460 g     O .data	00000004 .hidden BEGIN_EDDSA_PRIV
+08004302  w      .text	00000000 VectorAC
+08013ed0 g     F .text	00000008 .hidden chSysTimerHandlerI
+080149b0 g     F .text	00000016 chThdExit
+0801e1e4 g     F .text	0000009c _puts_r
+080130b0 g     F .text	00000054 .hidden chEvtBroadcastFlagsI
+08014510 g     F .text	00000064 .hidden chSchGoSleepTimeoutS
+080054a0 g     F .text	0000007a .hidden __cmpdf2
+08005610 g     F .text	00000012 _lseek_r
+08004302  w      .text	00000000 DebugMon_Handler
+080100e0 g     F .text	000000ba .hidden wc_FreeRsaKey
+0800e540 g     F .text	000000f0 .hidden SetAlgoID
+2000442c g     O .data	00000004 .hidden END_RSA_PRIV
+080054a0 g     F .text	0000007a .hidden __eqdf2
+08004302  w      .text	00000000 Vector1A0
+08014e50 g     F .text	000000c0 .hidden chMtxLockS
+10000000 g       .ARM.exidx	00000000 __ram4_start__
+0800bf50 g     F .text	00000298 .hidden Base64_Decode
+08016fd0 g     F .text	0000000c .hidden chVTGetSystemTimeX.lto_priv.697
+080118d0 g     F .text	00000030 .hidden AddLength.lto_priv.489
+08017040 g     F .text	00000064 Vector5C
+0800d9b0 g     F .text	000000e0 .hidden wc_Md5Final
+08004e74 g     F .text	0000005a .hidden __floatdidf
+08024484 g     O .rodata	00000008 .hidden sigSha384wEcdsaOid.lto_priv.432
+0800be90 g     F .text	000000be .hidden mp_rand
+0801e1bc g     F .text	00000028 printf
+2000f234 g     O .bss	00000001 __lock___atexit_recursive_mutex
+08022ec8 g     F .text	00000054 _wcrtomb_r
+08013450 g     F .text	000000d4 .hidden chHeapFree
+08004302  w      .text	00000000 Vector11C
+40024000 g       .ram5	00000000 __ram5_clear__
+0800a9f0 g     F .text	00000078 .hidden mp_grow
+0801c354 g     F .text	00000020 __sseek
+0801d42c g     F .text	00000058 __sinit
+08022e18 g     F .text	000000ae __swbuf_r
+2000f1f4 g     O .bss	00000004 _daylight
+0800d900 g     F .text	000000a6 .hidden wc_Md5Update
+08004302  w      .text	00000000 HardFault_Handler
+08004302  w      .text	00000000 Vector1B8
+08007140 g     F .text	000000b4 .hidden mp_lcm
+08024584 g     O .rodata	00000008 .hidden extExtKeyUsageServerAuthOid.lto_priv.458
+0800a920 g     F .text	000000c2 .hidden mp_copy
+08004302  w      .text	00000000 Vector19C
+0800ab70 g     F .text	00000040 .hidden mp_zero
+0801c28c g     F .text	0000000c __malloc_unlock
+080195d0 g     F .text	00000132 .hidden _usb_ep0in
+2000f258 g       .ram0_init	00000000 __ram0_init__
+08019ed0 g     F .text	00000048 .hidden oqObjectInit
+08017c20 g     F .text	00000014 Vector8C
+08004302  w      .text	00000000 SysTick_Handler
+0800f210 g     F .text	00000052 .hidden SetBitString.lto_priv.378
+08024448 g     O .rodata	00000009 .hidden sigSha256wRsaOid.lto_priv.426
+2000f238 g     O .bss	00000001 __lock___arc4random_mutex
+0801c770 g     F .text	0000007e _sfread_r
+08024508 g     O .rodata	00000009 .hidden dhSinglePass_stdDH_sha1kdf_Oid.lto_priv.468
+080161c0 g     F .text	0000004e .hidden sdc_lld_set_bus_mode
+20000000 g       .ram1	00000000 __ram1_free__
+080244e4 g     O .rodata	00000009 .hidden wrapAes128Oid.lto_priv.465
+0801e094 g     F .text	000000c6 memmove
+080057e0 g     F .text	0000007a .hidden chHeapRealloc
+08004302  w      .text	00000000 VectorDC
+08011380 g     F .text	00000170 .hidden Hash_gen.lto_priv.479
+08011060 g     F .text	0000002c .hidden ByteReverseWord32.lto_priv.478
+00000000 g       .ARM.exidx	00000000 __ram6_start__
+080243f8 g     O .rodata	00000009 .hidden hashSha384hOid.lto_priv.419
+08004302  w      .text	00000000 PendSV_Handler
+20004424 g     O .data	00000004 .hidden END_X509_CRL
+0801ab58 g     F .text	0000001c __locale_ctype_ptr
+08004302  w      .text	00000000 Vector168
+08004302  w    F .text	00000000 NMI_Handler
+08021a40 g     F .text	0000004c _Balloc
+20004408 g     O .data	00000004 .hidden BEGIN_CERT_REQ
+08004000 g       .vectors	00000000 _vectors
+0802531c g       .ARM.exidx	00000000 __exidx_end
+08024494 g     O .rodata	00000007 .hidden keyDsaOid.lto_priv.434
+0802451c g     O .rodata	00000006 .hidden dhSinglePass_stdDH_sha256kdf_Oid.lto_priv.470
+08019440 g     F .text	0000002c .hidden _usb_wakeup
+080073f0 g     F .text	00000044 .hidden ByteReverseWords.lto_priv.357
+08016fb0 g     F .text	00000008 .hidden chSysLockFromISR.lto_priv.709
+08014440 g     F .text	00000048 .hidden chSchGoSleepS
+080182b0 g     F .text	00000016 .hidden osalThreadResumeI.lto_priv.759
+08004302  w      .text	00000000 Vector110
+08005490 g     F .text	0000008a .hidden __gtdf2
+08014ae0 g     F .text	00000038 .hidden chThdEnqueueTimeoutS
+080230e0 g     O .rodata	0000000c .hidden default_config.lto_priv.742
+0802458c g     O .rodata	00000008 .hidden extExtKeyUsageClientAuthOid.lto_priv.459
+0800ac40 g     F .text	00000084 .hidden mp_rshb
+08016dc0 g     F .text	00000012 .hidden chTimeAddX.lto_priv.715
+2000f258 g       .ram0	00000000 __ram0_free__
+080245c0 g     O .rodata	00000050 .hidden base64Decode.lto_priv.367
+20004440 g     O .data	00000004 .hidden BEGIN_ENC_PRIV_KEY
+2000f258 g       .heap	00000000 __heap_base__
+20004404 g     O .data	00000004 .hidden END_CERT
+08008190 g     F .text	00000046 .hidden mp_dr_is_modulus
+080198e0 g     F .text	00000016 .hidden osalThreadDequeueAllI.lto_priv.785
+08024554 g     O .rodata	00000003 .hidden extKeyUsageOid.lto_priv.449
+08005690 g     F .text	00000026 _fstat_r
+080244a8 g     O .rodata	00000007 .hidden keyEcdsaOid.lto_priv.436
+080244c8 g     O .rodata	00000009 .hidden blkAes256CbcOid.lto_priv.439
+0801c314 g     F .text	00000004 __seofread
+08017ef0 g     F .text	0000003c Vector120
+08004302  w      .text	00000000 Vector1D8
+08015bd0 g     F .text	00000032 .hidden usb_lld_clear_out
+080244dc g     O .rodata	00000008 .hidden blkDes3CbcOid.lto_priv.441
+0802192c g     F .text	00000008 labs
+08019e50 g     F .text	0000007c .hidden iqReadTimeout
+0800552c g     F .text	00000010 .hidden __aeabi_cdcmple
+08018280 g     F .text	00000008 .hidden osalSysUnlockFromISR.lto_priv.743
+08006640 g     F .text	00000054 .hidden wc_Sha224Final
+08004302  w      .text	00000000 VectorC8
+080243c8 g     O .rodata	00000008 .hidden hashMd2hOid.lto_priv.414
+08014580 g     F .text	00000050 .hidden chSchWakeupS
+08018b40 g     F .text	0000004a .hidden sdIncomingDataI
+08025d84 g       *ABS*	00000000 __ram3_init_text__
+080190a0 g     F .text	0000004c .hidden usbObjectInit
+08014940 g     F .text	0000006c .hidden chThdCreateStatic
+080145d0 g     F .text	00000012 .hidden chSchRescheduleS
+08006f30 g     F .text	0000011e .hidden mp_rand_prime
+08017c60 g     F .text	00000014 Vector94
+40025000 g       *ABS*	00000000 __ram5_end__
+080182d0 g     F .text	00000090 .hidden otg_disable_ep.lto_priv.765
+40024000 g       .ram5	00000000 __ram5_noinit__
+00001000 g       *ABS*	00000000 __ram5_size__
+08011870 g     F .text	00000054 .hidden InitSha.lto_priv.486
+08004302  w      .text	00000000 VectorA8
+080063a0 g     F .text	0000001e .hidden wc_Sha256Update
+0800471c g     F .text	00000134 memcpy
+08008730 g     F .text	0000007e .hidden mp_montgomery_setup
+08016140 g     F .text	0000003a .hidden sdc_lld_start_clk
+0800551c g     F .text	00000020 .hidden __aeabi_cdrcmple
+08024474 g     O .rodata	00000008 .hidden sigSha224wEcdsaOid.lto_priv.430
+08019470 g     F .text	0000015e .hidden _usb_ep0setup
+08018a80 g     F .text	0000001c .hidden _ctl.lto_priv.175
+080167d0 g     F .text	0000007c .hidden st_lld_init
+08004302  w      .text	00000000 VectorB4
+08024514 g     O .rodata	00000006 .hidden dhSinglePass_stdDH_sha224kdf_Oid.lto_priv.469
+080065e0 g     F .text	0000001c .hidden wc_InitSha224
+0801d3d0 g     F .text	0000000c _cleanup_r
+08004e04 g     F .text	00000022 .hidden __floatsidf
+08019a30 g     F .text	00000012 .hidden stStartAlarm
+08005498 g     F .text	00000082 .hidden __ltdf2
+08004850 g     F .text	00000000 .hidden __aeabi_uldivmod
+0801e280 g     F .text	00000010 puts
+080143a0 g     F .text	0000004c .hidden chSchReadyI
+0800a630 g     F .text	00000058 .hidden mp_clear
+080041e0 g       .text	00000000 __fini_array_end
+20004400 g       .pstack	00000000 __main_thread_stack_end__
+0800ca90 g     F .text	00000164 .hidden mp_init_multi
+08008a30 g     F .text	0000017a .hidden mp_montgomery_reduce
+08025314 g       .rodata	00000000 __rodata_end__
+080241e0 g     O .rodata	00000068 .hidden ecc_sets
+0801d190 g     F .text	0000001c tolower_l
+0800aa70 g     F .text	000000f8 .hidden mp_div_2d
+080041e0 g     F .text	00000000 _crt0_entry
+0801d75c g     F .text	0000001a iswspace
+08013270 g     F .text	00000028 .hidden _heap_init
+08024430 g     O .rodata	00000009 .hidden sigSha1wRsaOid.lto_priv.424
+08017d70 g     F .text	00000040 Vector74
+20004e68 g     O .bss	00000030 .hidden CAND1
+08025220 g     O .rodata	000000c8 __mprec_tens
+080199b0 g     F .text	0000002c .hidden halInit
+08022fe8 g     O .rodata	00000002 .hidden active_status.lto_priv.816
+08004302  w      .text	00000000 Vector160
+0800e4d0 g     F .text	00000026 .hidden SetSequence
+08004302  w      .text	00000000 Vector1B0
+08004302  w      .text	00000000 UsageFault_Handler
+08007440 g     F .text	00000016 .hidden min.lto_priv.361
+08004302  w      .text	00000000 VectorEC
+0800c880 g     F .text	0000005a .hidden wc_Md5Hash
+20004e68 g       .bss	00000000 _bss_start
+08019d50 g     F .text	0000007e .hidden iqPutI
+08022fc0 g     O .rodata	00000024 .hidden vmt.lto_priv.146
+08009350 g     F .text	0000006c .hidden mp_init_size
+2000f22c g     O .bss	00000004 __malloc_top_pad
+08011850 g     F .text	00000016 .hidden min.lto_priv.490
+20005b40 g     O .bss	00000160 .hidden ch_idle_thread_wa
+0801c734 g     F .text	0000003a __ssrefill_r
+08024690 g     O .rodata	00000400 .hidden ltm_prime_tab
+20030000 g       .heap	00000000 __heap_end__
+0801c688 g     F .text	0000002c strtoul
+08004de4 g     F .text	0000001e .hidden __aeabi_ui2d
+0800ba30 g     F .text	0000009c .hidden mp_cmp_mag
+08018950 g     F .text	00000026 .hidden _read.lto_priv.165
+08021934 g     F .text	0000001c _localeconv_r
+0800a720 g     F .text	00000034 .hidden mp_unsigned_bin_size
+0801dfac g     F .text	00000024 _strtoull_r
+08021bc0 g     F .text	00000012 __i2b
+0802163c g     F .text	000002f0 __sfvwrite_r
+0001c000 g       *ABS*	00000000 __ram1_size__
+08016fc0 g     F .text	00000008 .hidden chSysUnlockFromISR.lto_priv.707
+08004880 g     F .text	000002dc .hidden __udivmoddi4
+08004b60 g     F .text	00000000 .hidden __aeabi_drsub
+08004302  w      .text	00000000 Vector40
+08005660 g     F .text	0000002e _sbrk_r
+08004302  w      .text	00000000 VectorF8
+08004302  w      .text	00000000 Vector108
+08019a50 g     F .text	00000008 .hidden stStopAlarm
+08004302  w      .text	00000000 VectorBC
+08004302  w      .text	00000000 Vector190
+08018030 g     F .text	00000040 Vector150
+08015880 g     F .text	0000002e .hidden usb_lld_read_setup
+0800fff0 g     F .text	000000ca .hidden wc_InitRsaKey_ex
+08024424 g     O .rodata	00000009 .hidden sigMd5wRsaOid.lto_priv.423
+080055f0 g     F .text	0000001a _read_r
+20000000 g       .ram1	00000000 __ram1_clear__
+08017f30 g     F .text	00000040 Vector124
+08005550 g     F .text	00000012 .hidden __aeabi_dcmplt
+0801dfd0 g     F .text	000000c2 _fclose_r
+08007460 g     F .text	00000090 .hidden InitSha256.lto_priv.358
+0800fa30 g     F .text	0000003c .hidden SetObjectId.lto_priv.390
+2000f224 g     O .bss	00000004 __malloc_max_sbrked_mem
+08024a90 g     O .rodata	00000100 .hidden K.lto_priv.362
+08017540 g     F .text	00000078 .hidden hal_lld_init
+20004458 g     O .data	00000004 .hidden BEGIN_PUB_KEY
+08004e28 g     F .text	0000003a .hidden __extendsfdf2
+08005124 g     F .text	000001d0 .hidden __aeabi_ddiv
+0800c7b0 g     F .text	000000d0 .hidden wc_Hash
+080158b0 g     F .text	00000140 .hidden usb_lld_start_out
+080198d0 g     F .text	00000008 .hidden osalSysUnlockFromISR.lto_priv.790
+00000000 g       .ram7	00000000 __ram7_free__
+00010000 g       *ABS*	00000000 __ram4_size__
+0800aef0 g     F .text	00000150 .hidden mp_mul_2d
+08004b6c g     F .text	00000276 .hidden __adddf3
+0801a950 g     F .text	0000002c .hidden sdcObjectInit
+08004302  w      .text	00000000 Vector1C4
+08004302  w      .text	00000000 Vector1CC
+08013060 g     F .text	00000018 .hidden rotlFixed.lto_priv.491
+2001c000 g       *ABS*	00000000 __ram1_end__
+10010000 g       *ABS*	00000000 __ram4_end__
+08025314 g       .ARM.exidx	00000000 __exidx_start
+2000f23c g     O .bss	00000001 __lock___env_recursive_mutex
+08004ed0 g     F .text	00000254 .hidden __aeabi_dmul
+080149d0 g     F .text	00000074 .hidden chThdExitS
+080245b4 g     O .rodata	00000009 .hidden pbkdf2Oid.lto_priv.464
+2000f240 g     O .bss	00000001 __lock___sinit_recursive_mutex
+08025d84 g       *ABS*	00000000 __ram0_init_text__
+0800a880 g     F .text	00000058 .hidden mp_to_unsigned_bin
+0801d870 g     F .text	0000034c _realloc_r
+08025d84 g       *ABS*	00000000 __ram1_init_text__
+0801b754 g     F .text	00000020 strtol_l
+0801a310 g     F .text	00000008 .hidden osalSysLock.lto_priv.828
+0800f9c0 g     F .text	0000006e .hidden GetASNObjectId.lto_priv.413
+08018490 g     F .text	000000fa .hidden otg_rxfifo_handler.lto_priv.771
+08022db0 g     F .text	00000066 _fputwc_r
+080251f8 g     O .rodata	00000028 __mprec_bigtens
+08004302  w      .text	00000000 Vector148
+08004302  w      .text	00000000 Vector188
+08004de4 g     F .text	0000001e .hidden __floatunsidf
+080066c0 g     F .text	00000008 .hidden wc_Sha256Free
+08013080 g     F .text	0000002c .hidden ByteReverseWord32.lto_priv.492
+08021e3c g     F .text	00000036 __mcmp
+00030000 g       *ABS*	00000000 __ram0_size__
+08016f70 g     F .text	00000012 .hidden port_timer_set_alarm.lto_priv.711
+08024278 g     O .rodata	00000020 .hidden reseedEntropyA
+08015b50 g     F .text	00000032 .hidden usb_lld_stall_out
+08013880 g     F .text	000004a8 .hidden chvprintf
+08025d84 g       *ABS*	00000000 __ram5_init_text__
+08011280 g     F .text	000000b6 .hidden Hash_DRBG_Reseed.lto_priv.474
+08024454 g     O .rodata	00000009 .hidden sigSha384wRsaOid.lto_priv.427
+08018740 g     F .text	00000056 .hidden sdcRead
+0801abe8 g     F .text	00000a00 strptime_l
+200050e4 g     O .bss	00000200 .hidden u.lto_priv.757
+0800c710 g     F .text	00000026 .hidden Base64_Encode
+08004302  w      .text	00000000 Vector198
+08004302  w      .text	00000000 Vector118
+0800db40 g     F .text	0000002a .hidden wc_DerToPem
+08024cf8 g     O .rodata	000000fc _C_time_locale
+08024650 g     O .rodata	00000040 .hidden lnz.lto_priv.363
+08005dc0 g     F .text	000003c0 .hidden PemToDer
+08005344 g     F .text	0000009e .hidden __aeabi_d2f
+08008080 g     F .text	0000007a .hidden mp_reduce_is_2k_l
+08017120 g     F .text	00000064 Vector64
+2000f258 g       .bss	00000000 _bss_end
+08016680 g     F .text	00000080 .hidden sdc_lld_write
+0800bc70 g     F .text	000001de .hidden mp_div
+0800a7c0 g     F .text	0000005c .hidden mp_leading_bit
+08004300  w    F .text	00000000 Reset_Handler
+08019380 g     F .text	000000b4 .hidden _usb_suspend
+0801b904 g     F .text	0000000c __tz_unlock
+080186e0 g     F .text	00000056 .hidden sdcDisconnect
+0800e920 g     F .text	0000001c .hidden wc_InitRng
+08021b20 g     F .text	0000003e __hi0bits
+08004302  w      .text	00000000 VectorCC
+080052f4 g     F .text	0000004e .hidden __fixdfsi
+08016bd0 g     F .text	00000024 .hidden sd_lld_init
+0800b040 g     F .text	000000ce .hidden mp_lshd
+08004302  w      .text	00000000 Vector54
+2000f244 g     O .bss	00000001 __lock___malloc_recursive_mutex
+08009ac0 g     F .text	000000d0 .hidden mp_montgomery_calc_normalization
+08017c80 g     F .text	00000014 Vector98
+08016210 g     F .text	0000003c .hidden sdc_lld_send_cmd_none
+08016600 g     F .text	00000080 .hidden sdc_lld_read
+08024248 g     O .rodata	00000030 .hidden entropyA
+20005098 g     O .bss	0000004c .hidden SDCD1
+20004e98 g     O .bss	00000004 .hidden dma_streams_mask.lto_priv.788
+08014a70 g     F .text	00000038 .hidden chThdSuspendTimeoutS
+080183f0 g     F .text	00000020 .hidden otg_ram_alloc.lto_priv.768
+08024578 g     O .rodata	00000008 .hidden extAltNamesHwNameOid.lto_priv.456
+10000000 g       .ram4	00000000 __ram4_clear__
+0800ae70 g     F .text	0000007e .hidden mp_read_unsigned_bin
+20005d20 g     O .bss	0000001c .hidden default_heap.lto_priv.647
+0800b260 g     F .text	00000034 .hidden mp_abs
+40024000 g       .ram5	00000000 __ram5_free__
+08004302  w      .text	00000000 VectorD8
+20004a0c g     O .data	00000008 _tzname
+20004e64 g     O .data	00000004 environ
+08025d84 g       *ABS*	00000000 __ram6_init_text__
+0800fcb0 g     F .text	0000004a .hidden ToTraditional
+0800c740 g     F .text	00000068 .hidden wc_HashGetDigestSize
+08004302  w      .text	00000000 Vector138
+08009b90 g     F .text	000004c0 .hidden s_mp_exptmod
+08004b6c g     F .text	00000276 .hidden __aeabi_dadd
+08005860 g     F .text	0000001c .hidden chibios_alloc
+08004302  w      .text	00000000 Vector24
+08005498 g     F .text	00000082 .hidden __ledf2
+08014e30 g     F .text	0000001a .hidden chMtxLock
+20020000 g       .ram3	00000000 __ram3_clear__
+08006600 g     F .text	00000038 .hidden wc_Sha224Update
+08019920 g     F .text	00000002 __default_exit
+00000000 g       *ABS*	00000000 __ram6_end__
+0800e3f0 g     F .text	00000020 .hidden wc_RsaKeyToPublicDer
+0800ea40 g     F .text	00000054 .hidden wc_FreeRng
+08021cf8 g     F .text	000000a0 __pow5mult
+0800b2a0 g     F .text	00000070 .hidden mp_invmod
+00000000 g       .ram6_init	00000000 __ram6_init__
+08004302  w      .text	00000000 Vector1AC
+08004e64 g     F .text	0000006a .hidden __aeabi_ul2d
+0800f110 g     F .text	00000100 .hidden CheckBitString.lto_priv.381
+08015680 g     F .text	0000012c .hidden usb_lld_reset
+08014660 g     F .text	00000040 chSchDoReschedule
+080230ec g     O .rodata	000000fc .hidden gpio_default_config.lto_priv.741
+08013e70 g     F .text	0000005c .hidden chSysInit
+00000000 g       .ram7_init	00000000 __ram7_init__
+08022034 g     F .text	00000098 sniprintf
+08024184 g     O .rodata	00000018 .hidden idle_descriptor.8162.lto_priv.717
+08007200 g     F .text	00000180 .hidden mp_gcd
+08004302  w      .text	00000000 Vector178
+00000000 g       .ram6	00000000 __ram6_free__
+08014a50 g     F .text	0000001a .hidden chThdSleep
+08018980 g     F .text	00000028 .hidden _put.lto_priv.156
+08022ff0 g     O .rodata	000000c0 .hidden _stm32_dma_streams
+0801bd0c g     F .text	00000002 __retarget_lock_release_recursive
+08017e70 g     F .text	00000040 Vector84
+2001c000 g       .ram2	00000000 __ram2_noinit__
+08018800 g     F .text	00000036 .hidden sdcSync
+0802456c g     O .rodata	00000008 .hidden extAuthInfoCaIssuerOid.lto_priv.454
+08024418 g     O .rodata	00000009 .hidden sigMd2wRsaOid.lto_priv.422
+0802459c g     O .rodata	00000008 .hidden extExtKeyUsageEmailProtectOid.lto_priv.461
+08011800 g     F .text	00000044 .hidden ByteReverseWords.lto_priv.487
+0802453c g     O .rodata	00000003 .hidden extCrlDistOid.lto_priv.444
+0802454c g     O .rodata	00000003 .hidden extSubjKeyOid.lto_priv.447
+0800558c g     F .text	00000012 .hidden __aeabi_dcmpgt
+2000444c g     O .data	00000004 .hidden END_EC_PRIV
+00000000 g       .ram6	00000000 __ram6_noinit__
+0800a8e0 g     F .text	00000040 .hidden mp_init_copy
+08015840 g     F .text	00000040 .hidden usb_lld_get_status_in
+080175c0 g     F .text	00000138 .hidden stm32_clock_init
+10000000 g       .ram4_init	00000000 __ram4_init__
+080230b0 g     O .rodata	00000024 .hidden ep0config.lto_priv.761
+0801d484 g     F .text	0000000c __sfp_lock_acquire
+080053f0 g     F .text	00000000 memchr
+08004302  w      .text	00000000 Vector1A4
+0800ca00 g     F .text	00000024 .hidden ForceZero.lto_priv.365
+080181c0 g     F .text	0000004c .hidden _pal_lld_init
+08010d10 g     F .text	00000024 .hidden wc_RsaEncryptSize
+0801d53c g     F .text	000001cc _free_r
+0801ab34 g     F .text	0000001c __locale_mb_cur_max
+08005578 g     F .text	00000012 .hidden __aeabi_dcmpge
+08018aa0 g     F .text	00000008 .hidden sdInit
+00000000 g       .ram7	00000000 __ram7_clear__
+0800be50 g     F .text	00000018 .hidden get_digit_count
+0801c6b4 g     F .text	00000080 _sungetc_r
+08014e10 g     F .text	0000001a .hidden chMtxObjectInit
+08008fd0 g     F .text	0000005a .hidden mp_mulmod
+08004b68 g     F .text	0000027a .hidden __aeabi_dsub
+08004302  w      .text	00000000 VectorD0
+08015c10 g     F .text	00000032 .hidden usb_lld_clear_in
+20004e5c g     O .data	00000004 __malloc_sbrk_base
+08014b50 g     F .text	00000024 .hidden chThdDequeueAllI
+08015660 g     F .text	00000020 .hidden usb_lld_init
+080131b0 g     F .text	0000001c .hidden _core_init
+0800bbe0 g     F .text	00000084 .hidden mp_mod
+0801ddcc g     F .text	00000024 _strtoll_r
+080189b0 g     F .text	0000001e .hidden _get.lto_priv.159
+20004400 g       .data	00000000 _data_start
+08024348 g     O .rodata	00000080 .hidden outputB
+080198c0 g     F .text	00000008 .hidden osalSysLockFromISR.lto_priv.792
+00000000 g       *ABS*	00000000 __ram7_size__
+08004302  w      .text	00000000 Vector1B4
+0800ac00 g     F .text	00000032 .hidden mp_exch
+08004e64 g     F .text	0000006a .hidden __floatundidf
+08007530 g     F .text	000006dc .hidden Transform.lto_priv.359
+080091f0 g     F .text	0000015c .hidden mp_div_3
+08016f30 g     F .text	00000002 .hidden port_wait_for_interrupt.lto_priv.724
+08018b10 g     F .text	00000024 .hidden sdStart
+08021d98 g     F .text	000000a2 __lshift
+08024548 g     O .rodata	00000003 .hidden extAuthKeyOid.lto_priv.446
+08004302  w      .text	00000000 Vector140
+080220cc g     F .text	000000fc __ssprint_r
+08024460 g     O .rodata	00000009 .hidden sigSha512wRsaOid.lto_priv.428
+08007d30 g     F .text	00000072 .hidden mp_add
+08004302  w      .text	00000000 VectorE4
+08019710 g     F .text	000000ec .hidden _usb_ep0out
+0800ca30 g     F .text	00000052 .hidden bn_reverse.lto_priv.364
+08004302  w      .text	00000000 VectorC0
+080243ec g     O .rodata	00000009 .hidden hashSha256hOid.lto_priv.418
+0801a8e0 g     F .text	00000058 .hidden _sdc_wait_for_transfer_state
+0801c478 g     F .text	000000a2 strncmp
+08016d90 g     F .text	0000000c .hidden sdc_lld_is_card_inserted
+080180b0 g     F .text	00000040 Vector158
+080117e0 g     F .text	0000001c .hidden wc_InitSha
+08017ff0 g     F .text	0000003c Vector130
+08004308 g     F .text	00000000 _port_switch
+08019900 g     F .text	00000002 __core_init
+08018840 g     F .text	0000002a .hidden sdcGetInfo
+10000000 g       .ram4	00000000 __ram4_noinit__
+08021bd4 g     F .text	00000124 __multiply
+08004302  w      .text	00000000 Vector1C0
+08010cb0 g     F .text	00000056 .hidden wc_RsaSSL_VerifyInline
+0800ad60 g     F .text	00000104 .hidden mp_mod_2d
+0801ef94 g     F .text	00000062 strncpy
+0802508c g     O .rodata	00000060 __month_lengths
+2000445c g     O .data	00000004 .hidden END_PUB_KEY
+2000f1fc g     O .bss	00000028 __malloc_current_mallinfo
+08021f7c g     F .text	000000b8 __d2b
+20004430 g     O .data	00000004 .hidden BEGIN_RSA_PUB
+08019a60 g     F .text	00000012 .hidden stSetAlarm
+08019910 g     F .text	00000002 __late_init
+08007c10 g     F .text	00000030 .hidden AddLength.lto_priv.360
+0802448c g     O .rodata	00000008 .hidden sigSha512wEcdsaOid.lto_priv.433
+08013690 g     F .text	00000078 .hidden _port_irq_epilogue
+080081e0 g     F .text	00000544 .hidden mp_exptmod_fast
+08004302  w      .text	00000000 Vector134
+0800ee90 g     F .text	00000098 .hidden GetASNInt.lto_priv.391
+080244d4 g     O .rodata	00000005 .hidden blkDesCbcOid.lto_priv.440
+08008000 g     F .text	0000007e .hidden mp_sub
+0801c664 g     F .text	00000024 _strtoul_r
+00000000 g       .ARM.exidx	00000000 __ram7_start__
+00000000 g       .ram6	00000000 __ram6_clear__
+08004302  w      .text	00000000 Vector1D0
+08011110 g     F .text	00000168 .hidden Hash_df.lto_priv.476
+08016e90 g     F .text	00000040 .hidden port_init.lto_priv.723
+080114f0 g     F .text	000000c4 .hidden array_add.lto_priv.477
+0800bb20 g     F .text	0000006a .hidden mp_cmp_d
+08005650 g     F .text	0000000e _close_r
+08004e04 g     F .text	00000022 .hidden __aeabi_i2d
+0800c940 g     F .text	0000005e .hidden wc_Sha224Hash
+08004302  w      .text	00000000 VectorF0
+080064c0 g     F .text	00000054 .hidden wc_Sha256Final
+0801e15c g     F .text	0000005e memcmp
+08024540 g     O .rodata	00000008 .hidden extAuthInfoOid.lto_priv.445
+08008ed0 g     F .text	00000100 .hidden mp_mul_d
+08019fb0 g     F .text	0000007a .hidden oqGetI
+0802447c g     O .rodata	00000008 .hidden sigSha256wEcdsaOid.lto_priv.431
+0801bcfc g     F .text	00000002 __retarget_lock_close_recursive
+08017fb0 g     F .text	00000040 Vector12C
+0800c9a0 g     F .text	0000005e .hidden wc_Sha256Hash
+0801a030 g     F .text	0000007c .hidden oqWriteTimeout
+20004e68 g       .data	00000000 _data_end
+08020610 g     F .text	000000c8 __swsetup_r
+08004302  w      .text	00000000 Vector13C
+08004b5c  w    F .text	00000002 .hidden __aeabi_ldiv0
+080067b0 g     F .text	00000178 .hidden mp_add_d
+08005124 g     F .text	000001d0 .hidden __divdf3
+08018920 g     F .text	00000026 .hidden _write.lto_priv.163
+20004400 g     O .data	00000004 .hidden BEGIN_CERT
+08013240 g     F .text	00000028 .hidden chCoreAllocAlignedWithOffset
+0801ef38 g     F .text	0000005a strncat
+08019290 g     F .text	000000ea .hidden _usb_reset
+080243d8 g     O .rodata	00000005 .hidden hashSha1hOid.lto_priv.416
+00010000 g       *ABS*	00000000 __ram3_size__
+20004444 g     O .data	00000004 .hidden END_ENC_PRIV_KEY
+20004a54 g     O .data	00000408 __malloc_av_
+08004302  w      .text	00000000 Vector100
+08004ed0 g     F .text	00000254 .hidden __muldf3
+0801c2f0 g     F .text	00000022 __sread
+08017340 g     F .text	00000180 VectorE0
+0802455c g     O .rodata	00000003 .hidden extExtKeyUsageOid.lto_priv.451
+08004302  w      .text	00000000 VectorF4
+08009030 g     F .text	00000044 .hidden mp_sqr
+0800ee40 g     F .text	0000001a .hidden SetASNNull.lto_priv.407
+0801a270 g     F .text	0000005e .hidden canObjectInit
+0801c280 g     F .text	0000000c __malloc_lock
+080041e0 g       .text	00000000 __fini_array_start
+2001c000 g       .ram2	00000000 __ram2_clear__
+20030000 g       *ABS*	00000000 __ram3_end__
+0801d37c g     F .text	00000054 _fflush_r
+080100c0 g     F .text	0000001e .hidden wc_InitRsaKey
+08022cb0 g     F .text	0000005e _calloc_r
+20004f1c g     O .bss	00000100 .hidden _pal_events
+080244f0 g     O .rodata	00000009 .hidden wrapAes192Oid.lto_priv.466
+00004000 g       *ABS*	00000000 __ram2_size__
+08018590 g     F .text	0000014a .hidden otg_txfifo_handler.lto_priv.772
+0801b8f8 g     F .text	0000000c __tz_lock
+08013530 g     F .text	00000026 .hidden chPoolObjectInitAligned
+20000000 g       .ARM.exidx	00000000 __ram1_start__
+08016250 g     F .text	00000074 .hidden sdc_lld_send_cmd_short
+0801bd04 g     F .text	00000002 __retarget_lock_acquire_recursive
+08022f20 g       .rodata	00000000 __rodata_base__
+08024410 g     O .rodata	00000007 .hidden sigSha1wDsaOid.lto_priv.421
+08024564 g     O .rodata	00000008 .hidden extAuthInfoOcspOid.lto_priv.453
+08024550 g     O .rodata	00000003 .hidden extCertPolicyOid.lto_priv.448
+08022f20 g     O .rodata	00000080 .hidden ram_areas.lto_priv.892
+0801d7d4 g     F .text	0000009a memset
+08004302  w      .text	00000000 MemManage_Handler
+08005d70 g     F .text	0000004c main
+08017cf0 g     F .text	0000003c Vector6C
+00000000 g       *ABS*	00000000 __ram6_size__
+2000f228 g     O .bss	00000004 __malloc_max_total_mem
+0801bcf8 g     F .text	00000002 __retarget_lock_init_recursive
+08004302  w      .text	00000000 VectorA0
+08025d84 g       *ABS*	00000000 __ram2_init_text__
+0800f090 g     F .text	00000072 .hidden GetInt
+080189d0 g     F .text	00000028 .hidden _putt.lto_priv.167
+08013650 g     F .text	00000038 SVC_Handler
+0801c374 g     F .text	00000008 __sclose
+20004448 g     O .data	00000004 .hidden BEGIN_EC_PRIV
+0800fd00 g     F .text	0000013c .hidden wc_RsaPublicKeyDecode
+0800edb0 g     F .text	00000026 .hidden GetSequence
+2000501c g     O .bss	00000060 .hidden USBD1
+08005344 g     F .text	0000009e .hidden __truncdfsf2
+0801b730 g     F .text	00000024 _strtol_r
+08024298 g     O .rodata	00000080 .hidden outputA
+20020000 g       .ram3	00000000 __ram3_free__
+0801bc64 g     F .text	0000007c _findenv_r
+080041e0 g       .text	00000000 __init_array_end
+08020808 g     F .text	00000e34 _dtoa_r
+0801bd20 g     F .text	00000560 _malloc_r
+08019dd0 g     F .text	0000007e .hidden iqGetTimeout
+0801bc48 g     F .text	0000001a __ascii_wctomb
+20004434 g     O .data	00000004 .hidden END_RSA_PUB
+08024560 g     O .rodata	00000003 .hidden extNameConsOid.lto_priv.452
+08004e74 g     F .text	0000005a .hidden __aeabi_l2d
+08004302  w      .text	00000000 VectorC4
+08017df0 g     F .text	0000003c Vector7C
+0801d1ac g     F .text	00000078 __submore
+0801d230 g     F .text	0000000c __env_unlock
+08025d84 g       *ABS*	00000000 __ram4_init_text__
+08004302  w      .text	00000000 Vector180
+20000000 g       .ram1	00000000 __ram1_noinit__
+20004450 g     O .data	00000004 .hidden BEGIN_DSA_PRIV
+080163f0 g     F .text	0000006c .hidden sdc_lld_read_special
+08024580 g     O .rodata	00000004 .hidden extExtKeyUsageAnyOid.lto_priv.457
+08018a50 g     F .text	00000026 .hidden _readt.lto_priv.173
+080167a0 g     F .text	0000002a VectorB0
+0801d49c g     F .text	000000a0 _malloc_trim_r
+0802419c g     O .rodata	00000016 .hidden ch_debug
+08013d30 g     F .text	00000026 .hidden chprintf
+08024404 g     O .rodata	00000009 .hidden hashSha512hOid.lto_priv.420
+08017c40 g     F .text	00000014 Vector90
+08024610 g     O .rodata	00000040 .hidden base64Encode.lto_priv.366
+0801b910 g     F .text	0000000c _tzset_unlocked
+08004348 g     F .text	000002dc strcmp
+20004420 g     O .data	00000004 .hidden BEGIN_X509_CRL
+0801c298 g     F .text	00000058 siscanf
+20004418 g     O .data	00000004 .hidden BEGIN_DSA_PARAM
+08018360 g     F .text	0000002a .hidden otg_rxfifo_flush.lto_priv.769
+08004302  w      .text	00000000 Vector114
+08024538 g     O .rodata	00000003 .hidden extAltNamesOid.lto_priv.443
+08004320 g     F .text	00000000 _port_thread_start
+08004302  w      .text	00000000 Vector164
+080170b0 g     F .text	00000064 Vector60
+0802452c g     O .rodata	00000006 .hidden dhSinglePass_stdDH_sha512kdf_Oid.lto_priv.472
+08004302  w      .text	00000000 Vector1C
+08013e60 g     F .text	0000000c .hidden _idle_thread.lto_priv.162
+080054a0 g     F .text	0000007a .hidden __nedf2
+2000443c g     O .data	00000004 .hidden END_PRIV_KEY
+08004302  w      .text	00000000 Vector1BC
+0800bad0 g     F .text	0000004c .hidden mp_cmp
+080061f0 g     F .text	000000e6 .hidden AllocDer
+08004302  w      .text	00000000 Vector1D4
+20004438 g     O .data	00000004 .hidden BEGIN_PRIV_KEY
+080243e0 g     O .rodata	00000009 .hidden hashSha224hOid.lto_priv.417
+08004302  w      .text	00000000 Vector17C
+080245ac g     O .rodata	00000008 .hidden extExtKeyUsageOcspSignOid.lto_priv.463
+08014b20 g     F .text	00000022 .hidden chThdDequeueNextI
+2001c000 g       .ram2_init	00000000 __ram2_init__
+08004302  w      .text	00000000 Vector48
+20020000 g       *ABS*	00000000 __ram2_end__
+08018270 g     F .text	00000008 .hidden osalSysLockFromISR.lto_priv.747
+08015b90 g     F .text	00000032 .hidden usb_lld_stall_in
+08007ef0 g     F .text	0000010e .hidden s_mp_sub
+20004000 g       .pstack	00000000 __process_stack_base__
+08016fa0 g     F .text	00000008 .hidden chSysEnable.lto_priv.722
+08004302  w      .text	00000000 Vector1A8
+08005630 g     F .text	00000012 _write_r
+0801c438 g     F .text	00000040 strncasecmp_l
+08004302  w      .text	00000000 Vector16C
+0800abb0 g     F .text	00000042 .hidden mp_clamp
+08017ca0 g     F .text	00000044 .hidden can_lld_init
+2000f258 g       .ram0	00000000 __ram0_clear__
+20004454 g     O .data	00000004 .hidden END_DSA_PRIV
+080135b0 g     F .text	00000060 .hidden _factory_init
+0800fb70 g     F .text	00000080 .hidden GetAlgoId
+20004474 g     O .data	00000004 _impure_ptr
+08010d40 g     F .text	000002f4 .hidden wc_MakeRsaKey
+08017d30 g     F .text	00000040 Vector70
+0801d23c g     F .text	00000140 __sflush_r
+08016bb0 g     F .text	00000014 VectorD4
+0801d778 g     F .text	0000005c _mbrtowc_r
+08024558 g     O .rodata	00000003 .hidden extInhibitAnyOid.lto_priv.450
+08013f10 g     F .text	00000030 .hidden chSysPolledDelayX
+080116c0 g     F .text	0000011a .hidden wc_ShaFinal
+08014160 g     F .text	000000e8 .hidden chVTDoResetI
+0800da90 g     F .text	00000028 .hidden wc_InitMd5
+0800e210 g     F .text	000001da .hidden wc_RsaKeyToDer
+080245a4 g     O .rodata	00000008 .hidden extExtKeyUsageTimestampOid.lto_priv.462
+0800a600 g     F .text	00000030 .hidden mp_init
+080221c8 g     F .text	00000a54 _svfiprintf_r
+08008100 g     F .text	00000084 .hidden mp_reduce_is_2k
+080241b4 g     O .rodata	00000024 .hidden pow10.lto_priv.625
+20020000 g       .ram3	00000000 __ram3_noinit__
+080148b0 g     F .text	0000005c .hidden chThdCreateSuspendedI
+0801a320 g     F .text	00000008 .hidden osalSysUnlock.lto_priv.824
+080243d0 g     O .rodata	00000008 .hidden hashMd5hOid.lto_priv.415
+0801ab74 g     F .text	0000002a __ascii_mbtowc
+2000f258 g       .ram0	00000000 __ram0_noinit__
+0801a980 g     F .text	000001b4 .hidden sdcConnect
+08019930 g     F .text	00000064 __init_ram_areas
+08018a20 g     F .text	00000026 .hidden _writet.lto_priv.171
+08004302  w      .text	00000000 Vector4C
+08018a00 g     F .text	0000001e .hidden _gett.lto_priv.169
+2001c000 g       .ARM.exidx	00000000 __ram2_start__
+08004302  w      .text	00000000 Vector144
+08017e30 g     F .text	00000040 Vector80
+0800e450 g     F .text	0000007e .hidden SetLength
+08014ab0 g     F .text	0000002e .hidden chThdResumeI
+08004330 g     F .text	00000000 _port_switch_from_isr
+080157b0 g     F .text	00000028 .hidden usb_lld_set_address
+2000f1f8 g     O .bss	00000004 _timezone
+20004e9c g     O .bss	00000080 .hidden dma_isr_redir.lto_priv.789
+08004302  w      .text	00000000 Vector15C
+0801c7f0 g     F .text	0000099e __ssvfiscanf_r
+00000000 g       *ABS*	00000000 __ram7_end__
+0801ef14 g     F .text	00000024 strftime
+08017190 g     F .text	00000064 Vector68
+08014f10 g     F .text	000000a4 .hidden chMtxUnlock
+08022fec g     O .rodata	00000002 .hidden halted_status.lto_priv.815
+08021950 g     F .text	0000005c __swhatbuf_r
+080244fc g     O .rodata	00000009 .hidden wrapAes256Oid.lto_priv.467
+08016700 g     F .text	0000000c .hidden sdc_lld_sync
+080241d8 g     O .rodata	00000008 .hidden ecc_oid_secp256r1.lto_priv.480
+20004000 g       .mstack	00000000 __main_stack_end__
+08017db0 g     F .text	00000040 Vector78
+08024594 g     O .rodata	00000008 .hidden extExtKeyUsageCodeSigningOid.lto_priv.460
+0800553c g     F .text	00000012 .hidden __aeabi_dcmpeq
+20005d3c g     O .bss	00000044 .hidden ch_factory
+0802449c g     O .rodata	00000009 .hidden keyRsaOid.lto_priv.435
+40024000 g       .ram5_init	00000000 __ram5_init__
+0800ec70 g     F .text	000000b8 .hidden GetLength
+0800c8e0 g     F .text	00000054 .hidden wc_ShaHash
+08024318 g     O .rodata	00000030 .hidden entropyB
+080187a0 g     F .text	00000056 .hidden sdcWrite
+0800f020 g     F .text	0000006e .hidden GetMyVersion
+08022d10 g     F .text	0000009e __fputwc
+2000f248 g     O .bss	00000001 __lock___at_quick_exit_mutex
+0801b5e8 g     F .text	00000020 strptime
+0801b91c g     F .text	0000032c _tzset_unlocked_r
+08004304  w    F .text	00000000 _unhandled_exception
+08016f40 g     F .text	0000000c .hidden port_rt_get_counter_value.lto_priv.695
+08007c40 g     F .text	000000e8 .hidden mp_div_2
+0800a760 g     F .text	00000052 .hidden mp_count_bits
+0800acd0 g     F .text	0000008a .hidden mp_rshd
+08004302  w      .text	00000000 Vector170
+08018ab0 g     F .text	00000060 .hidden sdObjectInit
+0800b110 g     F .text	00000148 .hidden mp_exptmod
+08009080 g     F .text	0000008c .hidden mp_mul
+08004302  w      .text	00000000 Vector88
+0800a6c0 g     F .text	00000052 .hidden mp_forcezero
+20004410 g     O .data	00000004 .hidden BEGIN_DH_PARAM
+0801c318 g     F .text	0000003c __swrite
+20004e60 g     O .data	00000004 __malloc_trim_threshold
+080230d4 g     O .rodata	0000000c .hidden fsparams.lto_priv.762
+08011090 g     F .text	00000024 .hidden ForceZero.lto_priv.475
+08022fa0 g     O .rodata	00000020 .hidden sdc_vmt.lto_priv.845
+20005d18 g     O .bss	00000008 .hidden ch_memcore
+20004000 g       .pstack	00000000 __main_thread_stack_base__
+0800efa0 g     F .text	0000007c .hidden SetASNIntMP.lto_priv.384
+0801d708 g     F .text	00000052 _fwalk_reent
+0800fb30 g     F .text	00000040 .hidden SkipObjectId.lto_priv.382
+08021e74 g     F .text	00000108 __mdiff
+08014030 g     F .text	00000130 .hidden chVTDoSetI
+080052f4 g     F .text	0000004e .hidden __aeabi_d2iz
+08019090 g     F .text	00000008 .hidden usbInit
+08025d84 g       *ABS*	00000000 __ram7_init_text__
+080074f0 g     F .text	0000003c .hidden wc_InitSha256_ex
+20020000 g       .ram3_init	00000000 __ram3_init__
+08016180 g     F .text	0000001e .hidden sdc_lld_set_data_clk
+20004428 g     O .data	00000004 .hidden BEGIN_RSA_PRIV
+080160e0 g     F .text	00000028 Vector104
+0801d490 g     F .text	0000000c __sfp_lock_release
+08004302  w      .text	00000000 Vector184
+080183d0 g     F .text	00000012 .hidden otg_ram_reset.lto_priv.766
+08004302  w      .text	00000000 Vector10C
+0800fa70 g     F .text	000000be .hidden GetObjectId
+08011600 g     F .text	000000b6 .hidden wc_ShaUpdate
+20000000 g       .ARM.exidx	00000000 __ram0_start__
+0801dbbc g     F .text	00000072 __sccl
+08004334 g       .text	00000000 _port_exit_from_isr
+20000000 g       .ram1_init	00000000 __ram1_init__
+08024f88 g     O .rodata	00000101 _ctype_
+20004414 g     O .data	00000004 .hidden END_DH_PARAM
+08004b5c  w    F .text	00000002 .hidden __aeabi_idiv0
+080041e0 g       .text	00000000 __init_array_start
+0801bd00 g     F .text	00000002 __retarget_lock_acquire
+080055a0 g     F .text	0000002c .hidden __unorddf2
+080157e0 g     F .text	00000018 .hidden usb_lld_disable_endpoints
+0801bd08 g     F .text	00000002 __retarget_lock_release
+2000507c g     O .bss	00000014 .hidden ep0_state.lto_priv.763
+080145f0 g     F .text	0000002c .hidden chSchIsPreemptionRequired
+080159f0 g     F .text	0000015e .hidden usb_lld_start_in
+08016350 g     F .text	0000009e .hidden sdc_lld_send_cmd_long_crc
+0802531c g       *ABS*	00000000 _textdata_start
+0802443c g     O .rodata	00000009 .hidden sigSha224wRsaOid.lto_priv.425
+200052e4 g     O .bss	0000085c .hidden SD1
+08015800 g     F .text	00000040 .hidden usb_lld_get_status_out
+08015640 g     F .text	00000014 Vector14C
+08019d00 g     F .text	00000048 .hidden iqObjectInit
+40024000 g       .ARM.exidx	00000000 __ram5_start__
+08004302  w      .text	00000000 BusFault_Handler
+08004302  w      .text	00000000 Vector50
+2000f24c g     O .bss	00000001 __lock___dd_hash_mutex
+0802446c g     O .rodata	00000007 .hidden sigSha1wEcdsaOid.lto_priv.429
+080219ac g     F .text	00000094 __smakebuf_r
+20005ca0 g     O .bss	00000078 .hidden ch
+2000f250 g     O .bss	00000001 __lock___tz_mutex
+08004302  w      .text	00000000 Vector1C8
+08016da0 g     F .text	0000000c .hidden sdc_lld_is_write_protected
+08004640 g     F .text	000000dc strlen
+2001c000 g       .ram2	00000000 __ram2_free__
+080110c0 g     F .text	00000044 .hidden ConstantCompare.lto_priv.473
+0801ab50 g     F .text	00000006 __locale_ctype_ptr_l
+0800f270 g     F .text	00000744 .hidden OidFromId.lto_priv.408
+08004302  w      .text	00000000 Vector194
+0800552c g     F .text	00000010 .hidden __aeabi_cdcmpeq
+08005490 g     F .text	0000008a .hidden __gedf2
+08004302  w      .text	00000000 Vector1DC
+08018070 g     F .text	00000040 Vector154
+10000000 g       .ram4	00000000 __ram4_free__
+08024534 g     O .rodata	00000003 .hidden extBasicCaOid.lto_priv.442
+20030000 g       *ABS*	00000000 __ram0_end__
+08022fe4 g     O .rodata	00000002 .hidden zero_status.lto_priv.814
+080206d8 g     F .text	00000008 abs
+08022c9c g     F .text	00000014 __sprint_r
+080161a0 g     F .text	00000018 .hidden sdc_lld_stop_clk
+080132a0 g     F .text	000001ac .hidden chHeapAllocAligned
+20000000 g       .mstack	00000000 __main_stack_base__
+08004302  w      .text	00000000 Vector44
+08004e28 g     F .text	0000003a .hidden __aeabi_f2d
+08004302  w      .text	00000000 Vector28
+08016db0 g     F .text	00000002 .hidden boardInit
+08004302  w      .text	00000000 VectorB8
+08016c00 g     F .text	0000005c .hidden sd_lld_start
+08024524 g     O .rodata	00000006 .hidden dhSinglePass_stdDH_sha384kdf_Oid.lto_priv.471
+00004000 g       *ABS*	00000000 __main_stack_size__
+08017eb0 g     F .text	00000040 VectorFC
+0801d224 g     F .text	0000000c __env_lock
+0800ee60 g     F .text	00000026 .hidden GetOctetString.lto_priv.403
+00000000 g       .ram7	00000000 __ram7_noinit__
+2000441c g     O .data	00000004 .hidden END_DSA_PARAM
+08004b68 g     F .text	0000027a .hidden __subdf3
+080066d0 g     F .text	00000080 .hidden mp_set_int
+0801eff8 g     F .text	00001594 _vfprintf_r
+20004400 g       .pstack	00000000 __process_stack_end__
+080244b0 g     O .rodata	00000009 .hidden blkAes128CbcOid.lto_priv.437
+08021b60 g     F .text	0000005e __lo0bits
+2000440c g     O .data	00000004 .hidden END_CERT_REQ
+080066a0 g     F .text	0000001c .hidden wc_InitSha256
+08018b90 g     F .text	00000002 .hidden sduInit
+0801b774 g     F .text	00000184 __tzcalc_limits
+08004302  w      .text	00000000 Vector34
+0800fe40 g     F .text	000000ac .hidden wc_ecc_get_oid
+08016d80 g     F .text	0000000c __early_init
+08011900 g     F .text	00001758 .hidden Transform.lto_priv.488
+08017f70 g     F .text	00000040 Vector128
+20020000 g       .ARM.exidx	00000000 __ram3_start__
+08006180 g     F .text	00000062 .hidden mystrnstr
+08004302  w      .text	00000000 VectorA4
+200048a0 g     O .data	0000016c __global_locale
+08024574 g     O .rodata	00000004 .hidden extCertPolicyAnyOid.lto_priv.455
+080162d0 g     F .text	00000074 .hidden sdc_lld_send_cmd_short_crc
+00000400 g       *ABS*	00000000 __process_stack_size__
+08016f60 g     F .text	00000008 .hidden port_timer_stop_alarm.lto_priv.713
+08016110 g     F .text	00000028 .hidden sdc_lld_init
+08016de0 g     F .text	00000012 .hidden chTimeDiffX.lto_priv.704
+08019f20 g     F .text	00000082 .hidden oqPutTimeout
+2000f254 g     O .bss	00000001 __lock___sfp_recursive_mutex
+08006930 g     F .text	00000160 .hidden mp_sub_d
+08005880 g     F .text	00000018 .hidden chibios_free
+08004302  w      .text	00000000 Vector20
+20004464 g     O .data	00000004 .hidden END_EDDSA_PRIV
+0801bcf0 g     F .text	00000008 __gettzinfo
+0800e820 g     F .text	00000100 .hidden wc_InitRng_ex
+08018390 g     F .text	00000032 .hidden otg_txfifo_flush.lto_priv.767
+0801bd10 g     F .text	00000010 free
+08004302  w      .text	00000000 Vector18C
+0800e940 g     F .text	000000f6 .hidden wc_RNG_GenerateBlock
+08021aa0 g     F .text	00000080 __multadd
+08021a8c g     F .text	00000012 _Bfree
+20005090 g     O .bss	00000008 .hidden ep0setup_buffer.lto_priv.764
+0800dac0 g     F .text	00000078 .hidden SetMyVersion
+0801bce0 g     F .text	00000010 _getenv_r
+08004302  w      .text	00000000 Vector174
+
+

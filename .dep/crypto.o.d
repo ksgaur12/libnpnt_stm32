@@ -1,33 +1,22 @@
 build/obj/crypto.o: crypto.c crypto.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/settings.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/visibility.h \
- cfg/user_settings.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/stdint.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_default_types.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/features.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_newlib_version.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_intsup.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_stdint.h \
- wolfssl_chibios.h chibios_stable-18.2.x/ext/wolfssl/wolfssl/ssl.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/version.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfio.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/types.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/wc_port.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/time.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/stdio.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_ansi.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/newlib.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_newlib_version.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/config.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/ieeefp.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/features.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/cdefs.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_default_types.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdarg.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/reent.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_ansi.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_types.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_types.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/lock.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/time.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/types.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_stdint.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/endian.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_endian.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/select.h \
@@ -37,9 +26,23 @@ build/obj/crypto.o: crypto.c crypto.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_timespec.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_pthreadtypes.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/types.h \
- /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/xlocale.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/stdio.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/string.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/xlocale.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/string.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/settings.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/visibility.h \
+ cfg/user_settings.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/stdint.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_intsup.h \
+ wolfssl_chibios.h chibios_stable-18.2.x/ext/wolfssl/wolfssl/ssl.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/version.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfio.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/types.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/wc_port.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/time.h \
+ /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/time.h \
  /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/ctype.h \
  chibios_stable-18.2.x/ext/lwip/src/include/lwip/opt.h cfg/lwipopts.h \
  chibios_stable-18.2.x/os/various/lwip_bindings/static_lwipopts.h \
@@ -174,56 +177,39 @@ build/obj/crypto.o: crypto.c crypto.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/hash.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/md5.h \
  chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha512.h \
- chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/asn_public.h def.h
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/asn_public.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/internal.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/asn.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/dsa.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/pkcs12.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/aes.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/logging.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/hmac.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha512.h def.h
 
 crypto.h:
 
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/settings.h:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/visibility.h:
-
-cfg/user_settings.h:
-
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h:
-
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/stdint.h:
-
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_default_types.h:
-
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/features.h:
-
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_newlib_version.h:
-
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_intsup.h:
-
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_stdint.h:
-
-wolfssl_chibios.h:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/ssl.h:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/version.h:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfio.h:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/types.h:
-
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/wc_port.h:
-
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/time.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/stdio.h:
 
 /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_ansi.h:
 
 /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/newlib.h:
 
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/_newlib_version.h:
+
 /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/config.h:
 
 /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/ieeefp.h:
 
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/features.h:
+
 /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/cdefs.h:
 
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_default_types.h:
+
 /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdarg.h:
 
 /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/reent.h:
 
@@ -235,9 +221,9 @@ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/wc_port.h:
 
 /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/lock.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/time.h:
-
 /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/types.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_stdint.h:
 
 /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/endian.h:
 
@@ -257,11 +243,41 @@ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/wc_port.h:
 
 /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/types.h:
 
-/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/xlocale.h:
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/stdio.h:
 
 /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/string.h:
 
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/xlocale.h:
+
 /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/string.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/settings.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/visibility.h:
+
+cfg/user_settings.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/stdint.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_intsup.h:
+
+wolfssl_chibios.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/ssl.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/version.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfio.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/types.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/wc_port.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/time.h:
+
+/home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/time.h:
 
 /home/ksg/bin/gcc-arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/ctype.h:
 
@@ -539,8 +555,22 @@ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/md5.h:
 
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha.h:
 
-chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha512.h:
-
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/asn_public.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/internal.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/asn.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/dsa.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/pkcs12.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/aes.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/logging.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/hmac.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha512.h:
 
 def.h:

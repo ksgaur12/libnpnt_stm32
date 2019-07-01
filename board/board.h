@@ -157,8 +157,8 @@
                                      PIN_OSPEED_HIGH(3) |       \
                                      PIN_OSPEED_VERYLOW(4) |       \
                                      PIN_OSPEED_VERYLOW(5) |       \
-                                     PIN_OSPEED_VERYLOW(6) |       \
-                                     PIN_OSPEED_VERYLOW(7) |       \
+                                     PIN_OSPEED_HIGH(6) |       \
+                                     PIN_OSPEED_HIGH(7) |       \
                                      PIN_OSPEED_VERYLOW(8) |       \
                                      PIN_OSPEED_HIGH(9) |       \
                                      PIN_OSPEED_HIGH(10) |      \
@@ -227,8 +227,8 @@
  * PB3  - PIN3                      (input pullup).
  * PB4  - PIN4                      (input pullup).
  * PB5  - PIN5                      (input pullup).
- * PB6  - PIN6                      (input pullup).
- * PB7  - PIN7                      (input pullup).
+ * PB6  - UART1_TX                  (input pullup).
+ * PB7  - UART1_RX                  (input pullup).
  * PB8  - PIN8                      (input pullup).
  * PB9  - PIN9                      (input pullup).
  * PB10 - PIN10                     (input pullup).
@@ -244,8 +244,8 @@
                                      PIN_MODE_INPUT(3) |           \
                                      PIN_MODE_INPUT(4) |           \
                                      PIN_MODE_INPUT(5) |           \
-                                     PIN_MODE_INPUT(6) |           \
-                                     PIN_MODE_INPUT(7) |           \
+                                     PIN_MODE_ALTERNATE(6) |           \
+                                     PIN_MODE_ALTERNATE(7) |           \
                                      PIN_MODE_ALTERNATE(8) |           \
                                      PIN_MODE_ALTERNATE(9) |           \
                                      PIN_MODE_INPUT(10) |          \
@@ -324,8 +324,8 @@
                                      PIN_AFIO_AF(3, 0U) |          \
                                      PIN_AFIO_AF(4, 0U) |          \
                                      PIN_AFIO_AF(5, 0U) |          \
-                                     PIN_AFIO_AF(6, 0U) |          \
-                                     PIN_AFIO_AF(7, 0U))
+                                     PIN_AFIO_AF(6, 7U) |          \
+                                     PIN_AFIO_AF(7, 7U))
 #define VAL_GPIOB_AFRH              (PIN_AFIO_AF(8, 9U) |          \
                                      PIN_AFIO_AF(9, 9U) |          \
                                      PIN_AFIO_AF(10, 0U) |         \

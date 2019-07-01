@@ -161,7 +161,45 @@ build/obj/ssl.o: chibios_stable-18.2.x/ext/wolfssl/src/ssl.c \
  chibios_stable-18.2.x/ext/lwip/src/include/lwip/ip6_addr.h \
  chibios_stable-18.2.x/ext/lwip/src/include/lwip/def.h \
  chibios_stable-18.2.x/ext/lwip/src/include/lwip/sys.h \
- chibios_stable-18.2.x/os/various/lwip_bindings/arch/sys_arch.h
+ chibios_stable-18.2.x/os/various/lwip_bindings/arch/sys_arch.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/internal.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/random.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha256.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/asn.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/integer.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/mpi_class.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/mpi_superclass.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/mpi_class.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/wolfmath.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/dsa.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/md5.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/asn_public.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/pkcs12.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/aes.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/logging.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/hmac.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/ecc.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha512.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/rsa.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/hash.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/error-ssl.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/error-crypt.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/coding.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfcrypt/src/misc.c \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/misc.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/evp.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/md5.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/sha.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/ripemd.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/rsa.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/bn.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/dsa.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/ec.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/des3.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/arc4.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/pwdbased.h \
+ chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/wc_encrypt.h
 
 chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/settings.h:
 
@@ -498,3 +536,79 @@ chibios_stable-18.2.x/ext/lwip/src/include/lwip/def.h:
 chibios_stable-18.2.x/ext/lwip/src/include/lwip/sys.h:
 
 chibios_stable-18.2.x/os/various/lwip_bindings/arch/sys_arch.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/internal.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/random.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha256.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/asn.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/integer.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/mpi_class.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/mpi_superclass.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/mpi_class.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/wolfmath.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/dsa.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/md5.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/asn_public.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/pkcs12.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/aes.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/logging.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/hmac.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/ecc.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/sha512.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/rsa.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/hash.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/error-ssl.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/error-crypt.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/coding.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfcrypt/src/misc.c:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/misc.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/evp.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/md5.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/sha.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/ripemd.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/rsa.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/bn.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/dsa.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/openssl/ec.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/des3.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/arc4.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/pwdbased.h:
+
+chibios_stable-18.2.x/ext/wolfssl/wolfssl/wolfcrypt/wc_encrypt.h:
